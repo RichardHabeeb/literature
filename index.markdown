@@ -44,9 +44,8 @@ layout: home
 
 {% capture authors -%}
 {%- for author in rawAuthors -%}
-[{{- author | split: ',' | reverse | join: ' ' -}}](https://scholar.google.com/citations?view_op=search_authors&mauthors=
-{{- author | split: ',' | reverse | join: '+' -}}
-&hl=en&oi=ao);
+[{{- author | split: ',' | reverse | join: ' ' -}}](https://dblp.org/search/author?q=
+{{- author | split: ',' | reverse | join: '+' -}})
 {%- endfor -%}
 {%- endcapture -%}
 
@@ -54,8 +53,19 @@ layout: home
 *{{ authors | split: ';' | join: ',' | remove: lcurly | remove: rcurly }}*
 {% endif %}
 
-### **{{ venue | remove: lcurly | remove: rcurly }}**
+### {% if paper.ENTRYTYPE == 'article' -%}
+Journal Article:
+{%- elsif paper.ENTRYTYPE == 'inproceedings' -%}
+Conference Paper:
+{%- elsif paper.ENTRYTYPE == 'book' -%}
+Book:
+{%- elsif paper.ENTRYTYPE == 'techreport' -%}
+Tech Report:
+{%- endif %} **{{ venue | remove: lcurly | remove: rcurly }}**
 
 ---
 
 {% endfor %}
+
+
+

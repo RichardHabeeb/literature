@@ -1,0 +1,611 @@
+- name: Systemization of Knowledge, Meta Analyses
+  queue: |
+    SoK: SGX.Fail: How Stuff Gets eXposed
+    SoK: Prudent Evaluation Practices for Fuzzing
+    Shedding Light on Static Partitioning Hypervisors for Arm-based Mixed-Criticality Systems
+    Security analysis of drones systems: Attacks, limitations, and recommendations
+    Unmanned aircraft systems: Surveillance, ethics and privacy in civil applications
+    Unmanned Aircraft and the Human Element: Public Perceptions and First Responder Concerns
+    A Survey of Research into Mixed Criticality Systems
+    Virtualizing mixed-criticality systems: A survey on industrial trends and issues
+    Building Embedded Systems Like It’s 1996
+    Assessment of Buffer Overflow Based Attacks On an IoT Operating System
+    The shift to multicores in real-time and safety-critical systems
+    An Experimental Security Analysis of an Industrial Robot Controller
+    Hardware-Based Trusted Computing Architectures for Isolation and Attestation
+    In Hardware We Trust? From TPM to Enclave Computing on RISC-V
+    Intrusion detection systems for IoT-based smart environments: a survey.
+    Experimental Security Analysis of a Modern Automobile
+    A Survey of Remote Automotive Attack Surfaces
+    Comprehensive Experimental Analyses of Automotive Attack Surfaces
+    Cybersecurity for autonomous vehicles: Review of attacks and defense
+    Edge Computing for Autonomous Driving: Opportunities and Challenges
+    A Quantitative Analysis of the Insecurity of Embedded Network Devices: Results of a Wide-Area Scan
+    A Large-Scale Analysis of the Security of Embedded Firmwares
+    Good Motive but Bad Design: Why ARM MPU Has Become an Outcast in Embedded Systems
+    Trusted Execution Environment: What It is, and What It is Not
+    A Manifesto for Future Generation Cloud Computing: Research Directions for the Next Decade
+    Container Security: Issues, Challenges, and the Road Ahead
+    A survey of security issues in hardware virtualization
+    Bootstrapping Trust in Commodity Computers
+    TS-Perf: General Performance Measurement of Trusted Execution Environment and Rich Execution Environment on Intel SGX, Arm TrustZone, and RISC-V Keystone
+    Certified self-modifying code
+    Virtualization: a survey on concepts, taxonomy and associated security issues
+    Secure Processors Part I: Background, Taxonomy for Secure Enclaves and Intel SGX Architecture
+    Secure Processors Part II: Intel SGX Security Analysis and MIT Sanctum Architecture
+    A survey on the security of blockchain systems
+    A Short Survey at the Intersection of Reliability and Security in Processor Architecture Designs
+    Preliminary Study of Trusted Execution Environments on Heterogeneous Edge Platforms
+    A comparison study of intel SGX and AMD memory encryption technology
+    A Survey on Hardware Security Techniques Targeting Low-Power SoC Designs
+    Recent trends in applying TPM to cloud computing
+    Hardware Security Knowledge Area
+    A survey of cryptographic approaches to securing big-data analytics in the cloud
+    Leveraging Kernel Security Mechanisms to Improve Container Security: a Survey
+    Secure and Trusted Execution: Past, Present, and Future - A Critical Review in the Context of the Internet of Things and Cyber-Physical Systems
+    A Survey on Theories and Applications for Self-Driving Cars Based on Deep Learning Methods
+    Embedded systems security: Threats, vulnerabilities, and attack taxonomy
+    Embedded systems security—an overview.
+    Security as a new dimension in embedded system design
+    An In-depth Study of MPU-Based Isolation Techniques
+    Good Motive but Bad Design: Why ARM MPU Has Become an Outcast in Embedded Systems
+    Control-Flow Integrity: Precision, Security, and Performance
+    Systems Research is Running out of Time
+    An Exploratory Study of Attestation Mechanisms for Trusted Execution Environment
+    Systematic Literature Review on the Use of Trusted Execution Environments to Protect Cloud/Fog-Based Internet of Things Applications
+    Trusted Execution Environments: Properties, Applications, and Challenges
+    A survey of asynchronous remote procedure calls
+
+- name: TrustZone Enclaves
+  queue: |
+    VOSYSmonitor, a TrustZone-based Hypervisor for ISO 26262 Mixed-critical System
+    Fortress: Securing IoT Peripherals with Trusted Execution Environments
+    Safe and Practical GPU Computation in TrustZone
+    SeCloak: ARM Trustzone-based Mobile Peripheral Control
+    Preliminary Study of Trusted Execution Environments on Heterogeneous Edge Platforms
+    TZ-Container: protecting container from untrusted OS with ARM TrustZone
+    SafeTEE: Combining Safety and Security on ARM-based Microcontrollers
+    Virtualization on TrustZone-Enabled Microcontrollers? Voilà!
+    Retrofitting the Partially Privileged Mode for TEE Communication Channel Protection
+    Trusted Execution of Periodic Tasks for Embedded Systems
+    SelMon: reinforcing mobile device security with self-protected trust anchor
+    Building trusted path on untrusted device drivers for mobile devices
+    Trusted Display on Untrusted Commodity Platforms
+    Software abstractions for trusted sensors
+    SecDeep: Secure and Performant On-device Deep Learning Inference Framework for Mobile and IoT Devices
+    TruZ-Droid: Integrating TrustZone with Mobile Operating System
+    TrustOTP: Transforming Smartphones into Secure One-Time Password Tokens
+    TrustDump: Reliable Memory Acquisition on Smartphones
+    Automated partitioning of android applications for trusted execution environments
+    Optimized Trusted Execution for Hard Real-Time Applications on COTS Processors
+    Secure boot, trusted boot and remote attestation for ARM TrustZone-based IoT Nodes
+    AdAttester: Secure Online Mobile Advertisement Attestation Using TrustZone
+    ReZone: Disarming TrustZone with TEE Privilege Reduction
+    PrOS: Light-Weight Privatized Secure OSes in ARM TrustZone
+    Protecting Actuators in Safety-Critical IoT Systems from Control Spoofing Attacks
+    Enabling Privacy-Preserving, Compute- and Data-Intensive Computing using Heterogeneous Trusted Execution Environment
+    TEEshift: Protecting Code Confidentiality by Selectively Shifting Functions into TEEs
+    Trusted display and input using screen overlays
+    Secure Edge Computing with ARM TrustZone
+    Towards A TEE-based V2V Protocol For Connected And Autonomous Vehicles
+    Work in Progress: Exploring Schedule-Based Side-Channels in TrustZone-Enabled Real-Time Systems
+    Snape: The Dark Art of Handling Heterogeneous Enclaves
+    Trustzone-Based Dual-Architecture Scheme for Active Defense
+    TZ-Container: protecting container from untrusted OS with ARM TrustZone
+    Darkroom The Use of ARM TrustZone for Secure Data Processing on the Cloud
+
+- name: Virtualization-Based Enclaves
+  queue: |
+    Sego: Pervasive Trusted Metadata for Efficiently Verified Untrusted System Services
+    Bao: A Lightweight Static Partitioning Hypervisor for Modern Multi-Core Embedded Systems
+    Partitioned Embedded Architecture Based on Hypervisor: The XtratuM Approach
+    Virtualizing embedded systems: why bother?
+    VirTEE: a full backward-compatible TEE with native live migration and secure I/O
+    Certifying Program Execution wi/th Secure Processors
+    A Hypervisor-Based System for Protecting Software Runtime Memory and Persistent Storage
+    Comprehensive VM Protection Against Untrusted Hypervisor Through Retrofitted AMD Memory Encryption
+    A zero-copy fast channel for inter-guest and guest-host communication using VirtIO-serial
+    A Secure and Formally Verified Linux KVM Hypervisor
+    The Design and Implementation of Hyperupcalls
+    AppShield: Protecting Applications against Untrusted Operating System
+    AppSec: A Safe Execution Environment for Security Sensitive Applications
+    MUSHI: Toward Multiple Level Security cloud with strong Hardware level Isolation
+    Strong Tenant Separation in Cloud Computing Platforms
+    Tamper-Resistant Execution in an Untrusted Operating System Using A Virtual Machine Monitor
+    Quest-V, a Partitioning Hypervisor for Latency-Sensitive Workloads
+
+- name: RISC-V and Custom Hardware Enclaves
+  queue: |
+    Heterogeneous Isolated Execution for Commodity GPUs
+    Elasticlave: An Efficient Memory Model for Enclaves
+    Implementing an untrusted operating system on trusted hardware
+    NGSCB: A Trusted Open System
+    A trusted open platform
+    Secure virtual architecture: a safe execution environment for commodity operating systems
+    Architecture for protecting critical secrets in microprocessors
+    Architectural support for hypervisor-secure virtualization
+    Architecture support for guest-transparent VM protection from untrusted hypervisor and physical attacks
+    SecureBlue++: CPU Support for Secure Execution
+    Scalable architectural support for trusted software
+    SecureME: a hardware-software approach to full system security
+    CHASE: A Configurable Hardware-Assisted Security Extension for Real-Time Systems
+    TIMBER-V: Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V
+    Fides: selectively hardening software application components against kernel-level or process-level malware
+    OASIS: on achieving a sanctuary for integrity and secrecy on untrusted platforms
+    The Lazarus Effect: Healing Compromised Devices in the Internet of Small Things
+    Telekine: Secure Computing with Cloud GPUs
+    Heterogeneous Isolated Execution for Commodity GPUs
+    Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing
+    Enabling Rack-scale Confidential Computing using Heterogeneous Trusted Execution Environment
+    Secure Resource Sharing for Embedded Protected Module Architectures
+    SCUBA: Secure Code Update By Attestation in Sensor Networks
+    Architectural support for copy and tamper resistant software
+    Privacy-Preserving Deep Learning
+    Building Verifiable Trusted Path on Commodity x86 Computers
+    Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation
+    Efficient Isolation of Trusted Subsystems in Embedded Systems
+    SICE: a hardware-level strongly isolated computing environment for x86 multi-core platforms
+    SofTEE: Software-Based Trusted Execution Environment for User Applications
+    Building a high-performance, programmable secure coprocessor
+    Securing Web servers against insider attack
+    HDFI: Hardware-Assisted Data-Flow Isolation
+    Dominance as a New Trusted Computing Primitive for the Internet of Things
+    The Trusted Execution Module: Commodity General-Purpose Trusted Computing
+    The ACROSS MPSoC -- A New Generation of Multi-core Processors Designed for Safety-Critical Embedded Systems
+
+- name: SGX Enclaves
+  queue: |
+    Eleos: ExitLess OS Services for SGX Enclaves
+    A secure, privacy-preserving IoT middleware using intel SGX
+    Trusted Inter-Process Communication Using Hardware Enclaves
+    Ryoan: A Distributed Sandbox for Untrusted Computation on Secret Data
+    Confidential Serverless Made Efficient with Plug-In Enclaves
+    PANOPLY: Low-TCB Linux Applications with SGX Enclaves
+    Spons & Shields: practical isolation for trusted execution
+    MPTEE: bringing flexible and efficient memory protection to Intel SGX
+    Secure Cloud Micro Services Using Intel SGX
+    S-NFV: Securing NFV states by using SGX
+    SENG, the SGX-Enforcing Network Gateway: Authorizing Communication from Shielded Clients
+    SGX-Shield: Enabling Address Space Layout Randomization for SGX Programs
+    PRIDWEN: Universally Hardening SGX Programs via Load-Time Synthesis
+    Shielding Applications from an Untrusted Cloud with Haven
+    Opaque: An Oblivious and Encrypted Distributed Analytics Platform
+    OBLIVIATE: A Data Oblivious File System for Intel SGX
+    Enclave-based oblivious RAM using Intel’s SGX
+    Glamdring: Automatic Application Partitioning for Intel SGX
+    Using Inputs and Context to Verify User Intentions in Internet Services
+    SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control
+    T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs
+    Execution integrity without implicit trust of system software
+    SecureKeeper: Confidential ZooKeeper using Intel SGX
+    Secure Content-Based Routing Using Intel Software Guard Extensions
+    Securing Application with Software Partitioning: A case study using SGX
+    A Library Operating System for Compatibility
+    TEEshift: Protecting Code Confidentiality by Selectively Shifting Functions into TEEs
+    CoSMIX: A Compiler-based System for Secure Memory Instrumentation and Execution in Enclaves
+    Preemptive scheduling of in-enclave threads
+    TROS: Protecting Humanoids ROS from Privileged Attackers
+    Varys: Protecting SGX Enclaves from Practical Side-Channel Attacks
+    SGX-PySpark: Secure Distributed Data Analytics
+    A Distributed Oracle Using Intel SGX for Blockchain-Based IoT Applications
+
+- name: Real Time, Data-Centric Publish Subscribe, Mixed-Criticality
+  queue: |
+    A Portable Lock-Free Bounded Queue
+    Evaluating Real-Time Publish/Subscribe Service Integration Approaches in QoS-Enabled Component Middleware
+    SCE-Comm: A Real-Time Inter-Core Communication Framework for Strictly Partitioned Multi-core Processors
+    The real-time publisher/subscriber inter-process communication model for distributed real-time systems: design and implementation
+    Implementing the real-time publisher/subscriber model on the controller area network (CAN)
+    Epidemic algorithms for reliable content-based publish-subscribe: an evaluation
+    A Real-Time virtio-based Framework for Predictable Inter-VM Communication
+    MemPol: Policing Core Memory Bandwidth from Outside of the Cores
+    MemGuard: Memory Bandwidth Reservation System for Efficient Performance Isolation in Multi-core Platforms
+    Design and verification of secure systems
+    Predictable Communication and Migration in the Quest-V Separation Kernel
+    Real-time cache management framework for multi-core architectures
+    SCE-Comm: A Real-Time Inter-Core Communication Framework for Strictly Partitioned Multi-core Processors
+    Scheduling-context capabilities: a principled, light-weight operating-system mechanism for managing time
+    PALLOC: DRAM bank-aware memory allocator for performance isolation on multicore platforms
+    Memory Bandwidth Management for Efficient Performance Isolation in Multi-Core Platforms
+    E-WarP: A System-wide Framework for Memory Bandwidth Profiling and Management
+    The real-time publisher/subscriber inter-process communication model for distributed real-time systems: design and implementation
+    Deterministic Memory Hierarchy and Virtualization for Modern Multi-Core Embedded Systems
+    Mixed-Criticality Support in a High-Assurance, General-Purpose Microkernel
+    Design and analyses of functional mode changes for mixed-criticality systems
+    System Mode Changes - General and Criticality-Based
+    Real-Time Computing with Lock-Free Shared Objects
+    LOCK-FREE TRANSACTIONS FOR REAL-TIME SYSTEMS
+    A Scalable Multi-Producer Multi-Consumer Wait-Free Ring Buffer
+    Real-Time Programming and L4 Microkernels
+    Vulnerabilities in Synchronous IPC Designs
+    A Middleware for High-Speed Distributed Real-Time Robotic Applications
+    High-assurance timing analysis for a high-assurance real-time operating system
+    An IEEE1394-based real-time distributed IPC system for collaborating TMO's
+    A Structured Approach to Developing Real-Time, Distributed Network Applications for ITS Deployment
+    Simultaneous Multithreading and Hard Real Time: Can it be Safe?
+    Modelling Security Risks in Real-Time Operating Systems
+    Preemptive Scheduling of Multi-criticality Systems with Varying Degrees of Execution Time Assurance
+    Achieving Isolation in Mixed-Criticality Industrial Edge Systems with Real-Time Containers
+    RT-IPC: An IPC Extension for Real-Time Mach
+    Timing Analysis of a Protected Operating System Kernel
+    High-assurance timing analysis for a high-assurance real-time operating system
+    Can Android Run on Time? Extending and Measuring the Android Platform’s Timeliness
+    RTDroid: A Design for Real-Time Android
+
+- name: ROS & DCPS
+  queue: |
+    SROS1: Using and Developing Secure ROS1 Systems
+    Procedurally Provisioned Access Control for Robotic Systems
+    The ring-buffer ROS2 executor: a novel approach for real-time ROS2 Space applications
+    A preliminary cyber-physical security assessment of the Robot Operating System (ROS)
+    High Performance Publish/Subscribe Middleware in Software-Defined Networks
+    On Security in Publish/Subscribe Services: A Survey
+    Secure data processing for IoT middleware systems
+    Security of Publish/Subscribe Systems
+    Performance of a Publish/Subscribe Middleware for the Real-Time Distributed Control systems
+    CompROS: A composable ROS2 based architecture for real-time embedded robotic development
+    SROS: Securing ROS over the wire, in the graph, and through the kernel
+    SROS1: Using and Developing Secure ROS1 Systems
+    Cybersecurity in Autonomous Systems: Evaluating the performance of hardening ROS
+    RGMP-ROS: a Real-time ROS Architecture of Hybrid RTOS and GPOS on Multi-core Processor
+    MagikCube: Securing Cross-Domain Publish/Subscribe Systems with Enclave
+    Performance of a Publish/Subscribe Middleware for the Real-Time Distributed Control systems
+
+- name: Self-Driving Cars, Robotics, Cyber-Physical Systems, IoT
+  queue: |
+    A Formal Approach to Constructing Secure Air Vehicle Software
+    Medical Device Security in the IoT Age
+    Clinical applications of artificial intelligence in robotic surgery
+    NASA’S DEVELOPMENT OF GROUND AND FLIGHT APPLICATION SOFTWARE FOR THE ARTEMIS PROGRAM
+    Current use of linux in spacecraft flight software
+    Orion Backup Flight Software (BFS)
+    IV&V on Orion’s ARINC 653 Flight Software Architecture
+    ARINC 653 API and its application – An insight into Avionics System Case Study
+    VANET security surveys
+    V2X security: A case study of anonymous authentication
+    Security issues and challenges in V2X: A Survey
+    A Study on ROS Vulnerabilities and Countermeasure
+    Cybersecurity in Autonomous Systems: Evaluating the performance of hardening ROS
+    A preliminary cyber-physical security assessment of the Robot Operating System (ROS)
+    A Unified Cloud Platform for Autonomous Driving
+    OpenVDAP: An Open Vehicular Data Analytics Platform for CAVs
+     Securing vehicular ad hoc networks
+    Computer Architectures for Autonomous Driving
+    Creating Autonomous Vehicle Systems, Second Edition
+    The Architectural Implications of Autonomous Driving: Constraints and Acceleration
+    simTD: a car-to-X system architecture for field operational tests [Topics in Automotive Networking]
+    Sandboxing Controllers for Cyber-Physical Systems
+    TBONE – A zero-click exploit for Tesla MCUs
+    Fooling the Eyes of Autonomous Vehicles: Robust Physical Adversarial Examples Against Traffic Sign Recognition Systems
+    Towards an Integrated Vehicle Management System in DriveOS
+    Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability?
+    Large-Scale Long-Tailed Recognition in an Open World
+    Development of a Collision Avoidance System
+    An Approach to Cost-Efficient Fault Tolerance in Inherently Redundant Fail-Operational Systems
+    The System-Level Simplex Architecture for Improved Real-Time Embedded System Safety
+
+- name: Attacks
+  queue: |
+    Cache side-channel attacks and time-predictability in high-performance critical real-time systems
+    Using model checking tools to triage the severity of security bugs in the Xen hypervisor
+    Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
+    Electromagnetic Analysis: Concrete Results
+    Side effects are not sufficient to authenticate software
+    On the difficulty of software-based attestation of embedded devices
+    SubVirt: implementing malware with virtual machines
+    Automated Detection, Exploitation, and Elimination of Double-Fetch Bugs using Modern CPU Features
+    Malware Guard Extension: Using SGX to Conceal Cache Attacks
+    Software Grand Exposure: {SGX} Cache Attacks Are Practical
+    Hardware-Backed Heist: Extracting ECDSA Keys from Qualcomm's TrustZone
+    Prime+Count: Novel Cross-world Covert Channels on ARM TrustZone
+    BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments
+    An Off-Chip Attack on Hardware Enclaves via the Memory Bus
+    TeeRex: Discovery and Exploitation of Memory Corruption Vulnerabilities in SGX Enclaves
+    Horizontal Privilege Escalation in Trusted Applications
+    Hacking in Darkness: Return-oriented Programming against Secure Enclaves
+    When a Patch is Not Enough - HardFails: Software-Exploitable Hardware Bugs
+    Exploiting Unprotected I/O Operations in AMD’s Secure Encrypted Virtualization
+    TPM-FAIL: TPM meets Timing and Lattice Attacks
+    Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing
+    Work in Progress: Exploring Schedule-Based Side-Channels in TrustZone-Enabled Real-Time Systems
+    WIP: Interrupt Attack on TEE-protected Robotic Vehicles
+    The Most Dangerous Code in the World: Validating SSL Certificates in Non-Browser Software
+
+
+
+- name: Verification, Formal Methods, Programming Languages
+  queue: |
+    Proof of Separability---A Verification Technique for a Class of Security Kernels
+    Formal Proof
+    VeriSMo: A Verified Security Module for Confidential VMs
+    HAMR: An AADL Multi-platform Code Generation Toolset
+    Model-driven development for the seL4 microkernel using the HAMR framework
+    Formal Analysis and Verification of DDS in ROS2
+    Spoq: Scaling Machine-Checkable Systems Verification in Coq
+    Secure Compilation to Protected Module Architectures
+    A Verification Methodology for the Arm® Confidential Computing Architecture: From a Secure Specification to Safe Implementations
+    Cerberus: A Formal Approach to Secure and Efficient Enclave Memory Sharing
+    A verified, efficient embedding of a verifiable assembly language
+    Formally Verified Memory Protection for a Commodity Multiprocessor Hypervisor
+    Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware
+    Verified Programs Can Party: Optimizing Kernel Extensions via Post-Verification Merging
+    An open framework for foundational proof-carrying code
+    Modular verification of assembly code with stack-based control abstractions
+    A general framework for certifying garbage collectors and their mutators
+    Certifying low-level programs with hardware interrupts and preemptive threads
+    Certified assembly programming with embedded code pointers
+    Formal certification of a compiler back-end or: programming a compiler with a proof assistant
+    Building Certified Libraries for PCC: Dynamic Storage Allocation
+    Abstraction for concurrent objects
+    Characterizing progress properties of concurrent objects via contextual refinement
+    A program logic for concurrent objects under fair scheduling
+    Certified Concurrent Abstraction Layers
+    Building Certified Concurrent OS Kernels
+    Virtual timeline: a formal abstraction for verifying preemptive schedulers with temporal isolation
+    Real-Time CertiKos: Compositional Verification of OS Kernels with Preemptive Scheduling and Temporal Isolation
+    Compositional virtual timelines: verifying dynamic-priority partitions with algorithmic temporal isolation
+    Verifying Linearizability of Intel R© Software Guard Extensions
+    Demystifying Attestation in Intel Trust Domain Extensions via Formal Verification
+    Unified Enclave Abstraction and Secure Enclave Migration on Heterogeneous Security Architectures
+    Verification of a Practical Hardware Security Architecture Through Static Information Flow Analysis
+    Hyperkernel: Push-Button Verification of an OS Kernel
+    BesFS: A POSIX Filesystem for Enclaves with a Mechanized Safety Proof
+    Moat: Verifying Confidentiality of Enclave Programs
+    Verifying linearizability of intel software guard extensions
+    Formal Abstractions for Attested Execution Secure Processors
+    ISA Semantics for ARMv8-a, RISC-v, and CHERI-MIPS
+    Verifying RISC-V Physical Memory Protection
+    Secure Compilation to Modern Processors
+
+
+- name: Program Analysis and Fuzzing
+  queue: |
+      SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing
+      Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions https://vbpf.github.io/
+
+
+
+
+
+
+- name: Integrity Monitoring
+  queue: |
+    probes: Enforcing kernel code integrity on the {TrustZone} architecture
+    SecVisor: a tiny hypervisor to provide lifetime kernel code integrity for commodity OSes
+    Copilot-a coprocessor-based kernel runtime integrity monitor.
+
+
+
+
+- name: Secure/Private Computation
+  queue: |
+    Secret Sharing in Pub/Sub Using Trusted Execution Environments
+    Hybrid Trust Multi-party Computation with Trusted Execution Environment
+    Giving State to the Stateless: Augmenting Trustworthy Computation with Ledgers
+    Oblivious Multi-Party Machine Learning on Trusted Processors
+    LucidiTEE: Policy-based Fair Computing at Scale
+    Practical Verifiable Computation by Using a Hardware-Based Correct Execution Environment
+    An Algorithmic Framework For Differentially Private Data Analysis on Trusted Processors
+
+- name: Static Analysis
+  queue: |
+    Memory Safety for Embedded Devices with nesCheck
+    PtrSplit: Supporting General Pointers in Automatic Program Partitioning
+    Types for safe locking: Static race detection for Java
+
+- name: eBPF
+  queue: |
+    Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel
+    End-to-End Mechanized Proof of an eBPF Virtual Machine for Micro-controllers
+    BPF for Storage: An Exokernel-Inspired Approach
+    Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel https://unsat.cs.washington.edu/projects/jitterbug/
+    bpfbox: Simple Precise Process Confinement with eBPF
+    Combining System Visibility and Security Using eBPF
+    Jitk: A Trustworthy In-Kernel Interpreter Infrastructure
+    hXDP: Efficient Software Packet Processing on FPGA NICs
+
+
+- name: Attestation, Root-of-Trust
+  queue: |
+    New Results for Timing-Based Attestation
+    On the TOCTOU Problem in Remote Attestation
+    Invited - Things, trouble, trust: on building trust in IoT systems
+    SALAD: Secure and Lightweight Attestation of Highly Dynamic and Disruptive Networks
+    LiteHAX: Lightweight Hardware-Assisted Attestation of Program Execution
+    RADIS: Remote Attestation of Distributed IoT Services
+    SIMPLE: A Remote Attestation Approach for Resource-constrained IoT devices
+    ASSURED: Architecture for Secure Software Update of Realistic Embedded Devices
+    APEX: A Verified Architecture for Proofs of Execution on Remote Devices under Full Software Compromise
+    BIND: a fine-grained attestation service for secure distributed systems
+    VRASED: A Verified Hardware/Software Co-Design for Remote Attestation
+    Smile: Secure Memory Introspection for Live Enclave
+    ARI: Attestation of Real-time Mission Execution Integrity
+    Remote attestation to dynamic system properties: Towards providing complete system integrity evidence
+    Distributed Software-based Attestation for Node Compromise Detection in Sensor Networks
+    Key Attestation from Trusted Execution Environments
+    SAKE: Software Attestation for Key Establishment in Sensor Networks
+
+- name: Control-Flow Integrity, Control-Flow Attestation
+  queue: |
+    C-FLAT: Control-Flow Attestation for Embedded Systems Software
+    LO-FAT: Low-Overhead Control Flow ATtestation in Hardware
+    Tiny-CFA: A Minimalistic Approach for Control-Flow Attestation Using Verified Proofs of Execution
+    CHASE: A Configurable Hardware-Assisted Security Extension for Real-Time Systems
+
+- name: Misc Historical
+  queue: |
+    SLIC: An Extensibility System for Commodity Operating Systems
+    Extensibility, Safety and Performance in the SPIN Operating System
+    The operating system kernel as a secure programmable machine
+    The Google file system
+    Dynamo: amazon's highly available key-value store
+    FlexSC: Flexible System Call Scheduling with Exception-Less System Calls
+    Resilient overlay networks
+    SplitStream: high-bandwidth multicast in cooperative environments
+    Managing energy and server resources in hosting centers
+    Real-time dynamic voltage scaling for low-power embedded operating systems
+    Algorand: Scaling Byzantine Agreements for Cryptocurrencies
+    CryptDB: protecting confidentiality with encrypted query processing
+    [Protection](https://dl.acm.org/doi/abs/10.1145/775265.775268)
+    SLAM and Static Driver Verifier: Technology Transfer of Formal Methods inside Microsoft
+    A Framework for Defining Logics
+    Elf: A Language for Logic Definition and Verified Metaprogramming
+    Linearizability: a correctness condition for concurrent objects
+    Safe kernel extensions without run-time checking
+    Foundational proof-carrying code
+    Forward and backward simulations: Part I. Untimed systems
+    Abstract interpretation: a unified lattice model for static analysis of programs by construction or approximation of fixpoints
+    Control-flow integrity principles, implementations, and applications
+    Combining control-flow integrity and static analysis for efficient and validated data sandboxing
+    Memory Safety for Low-Level Software/Hardware Interactions
+    Structure of the Multics Supervisor
+    The UNIX time-sharing system
+    Authentication in the Taos operating system
+    Authentication in Distributed Systems: Theory and Practice
+    Lest We Remember: Cold-Boot Attacks on Encryption Keys
+    Arrakis: The Operating System Is the Control Plane
+    The multikernel: a new OS architecture for scalable multicore systems
+    Embracing diversity in the Barrelfish manycore operating system
+    Mach: A new kernel foundation for UNIX development
+    On Micro-kernel Construction
+    Towards Application Security on Untrusted Operating Systems
+    Using Simplicity to Control Complexity
+    A secure and reliable bootstrap architecture
+    REAL-TIME SYSTEMS AND PROGRAMMING LANGUAGES: 3rd Edition
+    Limiting the damage potential of discretionary trojan horses
+    MERT - a multi-environment real-time operating system
+    UNIX Time-Sharing System: The MERT Operating System
+    Colorable Memory
+    Preventing Privilege Escalation
+    Capsicum: practical capabilities for UNIX
+    Privman: A Library for Partitioning Applications
+    Unikernels: library operating systems for the cloud
+    The use of name spaces in Plan 9
+    Resource containers: A new facility for resource management in server systems
+    Container-based Operating System Virtualization: A Scalable, High-performance Alternative to Hypervisors
+    The Turtles Project: Design and Implementation of Nested Virtualization
+    Xen and the art of virtualization
+    The BSD Packet Filter: A New Architecture for User-level Packet Capture
+    The nesC Language: A Holistic Approach to Networked Embedded Systems
+    An axiomatic basis for computer programming
+    TIL: a type-directed optimizing compiler for ML
+    An overview of the Flint/ml compiler
+    Daonity – Grid security from two levels of virtualization
+    High performance and scalable I/O virtualization via self-virtualized devices
+    Virtualization polling engine (VPE): using dedicated CPU cores to accelerate I/O virtualization
+    Micro Air Vehicle Link (MAVlink) in a Nutshell: A Survey
+
+- name: Unsorted
+  queue: |
+      A Systematic Study of Physical Sensor Attack Hardness
+      Investigating Voter Perceptions of Printed Physical Audit Trails for Online Voting
+      Flock: A Framework for Deploying On-Demand Distributed Trust
+      IntOS: Persistent Embedded Operating System and Language Support for Multi-threaded Intermittent Computing
+      Microkernel Goes General: Performance and Compatibility in the HongMeng Production Microkernel
+      SkyBridge: Fast and Secure Inter-Process Communication for Microkernels
+      Privbox: Faster System Calls Through Sandboxed Privileged Execution
+      Generic System Calls for GPUs
+      The Demikernel Datapath OS Architecture for Microsecond-scale Datacenter Systems
+      Internet of things (IoT) applications to fight against COVID-19 pandemic
+      A Comprehensive Review of the COVID-19 Pandemic and the Role of IoT, Drones, AI, Blockchain, and 5G in Managing its Impact
+      A Framework for Building Secure, Scalable, Networked Enclaves
+      SoftTRR: Protect Page Tables against Rowhammer Attacks using Software-only Target Row Refresh
+      Page placement algorithms for large real-indexed caches
+      ACES: Automatic Compartments for Embedded Systems
+      Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation
+      Memory Safety for Low-Level Software/Hardware Interactions
+      LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation
+      When Should The Network Be The Computer?
+      Intel x86 considered harmful
+      The Seven Properties of Highly Secured Devices
+      Understanding Integer Overflow in C/C++
+      Google Cloud Security and Compliance Whitepaper
+      Composable Cachelets: Protecting Enclaves from Cache Side-Channel Attacks
+      FlexOS: Making OS Isolation Flexible
+
+- name: Reports and Manuals
+  queue: |
+    Armv8.5-A Memory Tagging Extension
+    IBM Secure Blue https://researcher.watson.ibm.com/researcher/view_page.php?id=6904
+    (2004) Trustzone: Integrated Hardware and Software Security
+    (2005-2009) Building a Secure System using TrustZone® Technology
+
+- name: Articles, Blogs, Slides
+  queue: |
+    SMACCM
+    https://trustworthy.systems/projects/OLD/SMACCM/
+    Who Needs a Hypervisor?
+    https://www.lynx.com/embedded-systems-learning-center/do-you-need-a-hypervisor
+    PikeOS RTOS Security
+    https://www.sysgo.com/rtos-security
+    ‘Incompetent’ driverless cars are wreaking havoc on San Francisco
+    https://www.sfgate.com/tech/article/cruise-waymo-driverless-cars-san-francisco-18132953.php
+    Understanding The Growing Trend of ECU Virtualization
+    https://blog.sasken.com/understanding-the-growing-trend-of-ecu-virtualization
+    Renesas Debuts Automotive ECU Virtualization Solution Platform to Enable Secure Integration of Multiple Applications for Zone ECU
+    https://www.renesas.com/us/en/about/press-room/renesas-debuts-automotive-ecu-virtualization-solution-platform-enable-secure-integration-multiple
+    Migrating legacy software from obsolete hardware to modern system environments
+    https://militaryembedded.com/avionics/computers/migrating-legacy-software-from-obsolete-hardware-to-modern-system-environments
+    Northrop Grumman Brings Real-time Virtualization to Embedded Avionics Under New Partnership
+    https://interactive.aviationtoday.com/avionicsmagazine/july-august-2022/northrop-grumman-brings-real-time-virtualization-to-embedded-avionics-under-new-partnership/
+    Arm’s Growing Cloud Server Momentum
+    https://www.forbes.com/sites/stevemcdowell/2023/02/26/arms-growing-cloud-server-momentum/?sh=4b16d0701336
+    Toward verified artificial intelligence
+    https://dl.acm.org/doi/abs/10.1145/3503914
+    Microsoft: 70 percent of all security bugs are memory safety issues https://www.zdnet.com/article/microsoft-70-percent-of-all-security-bugs-are-memory-safety-issues/
+    Highly Evasive Attacker Leverages SolarWinds Supply Chain to Compromise Multiple Global Victims With SUNBURST Backdoor
+    https://www.mandiant.com/resources/blog/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor
+    PrOS: Light-Weight Privatized Secure OSes in ARM TrustZone
+    Cyberattacks on health care are increasing. Inside one hospital's fight to recover
+    https://www.npr.org/sections/health-shots/2023/05/08/1172569347/cyberattacks-on-health-care-are-increasing-inside-one-hospitals-fight-to-recover
+    A cyberattack on one hospital can disrupt an entire network of medical providers
+    https://www.npr.org/2023/06/19/1183098023/a-cyberattack-on-one-hospital-can-disrupt-an-entire-network-of-medical-providers
+    15 healthcare systems have been hit with ransomware attacks in 2023
+    https://www.beckershospitalreview.com/cybersecurity/15-healthcare-systems-have-been-hit-with-ransomware-attacks-in-2023.html
+    A Cyberattack Has Caused Confirmed Physical Damage for the Second Time Ever
+    https://www.wired.com/2015/01/german-steel-mill-hack-destruction/
+    Number of automotive ECUs continues to rise
+    https://www.eenewseurope.com/en/number-of-automotive-ecus-continues-to-rise/
+    (Project Zero) Trust Issues: Exploiting TrustZone TEEs
+    https://googleprojectzero.blogspot.com/2017/07/trust-issues-exploiting-{TrustZone}-tees.html
+    NVIDIA Confidential Compute https://www.nvidia.com/en-us/data-center/solutions/confidential-computing/
+    Spotlight: Occlum https://blog.edgeless.systems/spotlight-occlum-29ab50b49538
+    https://www.youtube.com/watch?v=3qQHrUEzFX4  https://occlum.io/
+    Interesting Trusted Execution Environment Exploit https://www.reddit.com/r/LiveOverflow/comments/a3zogw/interesting_trusted_execution_environment_exploit/
+    Device Attestation Model in Confidential Computing Environment
+    Software Enabling for Intel TDX in Support of TEE-I/O
+    AVF Architecture https://source.android.com/docs/core/virtualization/architecture
+    Halfnium https://www.trustedfirmware.org/projects/hafnium/
+    PATCH 0/4 - Time virtualization https://lwn.net/Articles/179825/
+    Process containers https://lwn.net/Articles/236038/
+    Seccomp BPF (SECure COMPuting with filters) https://www.kernel.org/doc/html/v4.19/userspace-api/seccomp_filter.html
+    every Boring Problem Found in eBPF https://tmpout.sh/2/4.html
+    Linux Kernel universal heap spray https://duasynt.com/blog/linux-kernel-heap-spray
+    The Linux kernel memory allocators from an exploitation perspective https://argp.github.io/2012/01/03/linux-kernel-heap-exploitation/
+    Looking at kmalloc() and the SLUB Memory Allocator https://ruffell.nz/programming/writeups/2019/02/15/looking-at-kmalloc-and-the-slub-memory-allocator.html
+    How does the SLUB allocator work https://events.static.linuxfound.org/images/stories/pdf/klf2012_kim.pdf
+    The Slab Allocator in the Linux kernel https://hammertux.github.io/slab-allocator
+    Taking a page from the kernel's book: A TLB issue in mremap() https://googleprojectzero.blogspot.com/2019/01/taking-page-from-kernels-book-tlb-issue.html
+    Submission Queue Polling https://unixism.net/loti/tutorial/sq_poll.html
+    These are the most insecure programming languages https://www.zdnet.com/article/which-are-the-most-insecure-programming-languages/
+    Efficient IO with io_uring https://kernel.dk/io_uring.pdf
+    AMD SEV-SNP Attestation: Establishing Trust in Guests https://developer.amd.com/wp-content/resources/LSS-SNP_Attestation-r4.pdf
+    Google Cloud: Confidential Computing concepts https://cloud.google.com/compute/confidential-vm/docs/about-cvm
+    AWS Nitro Enclaves https://aws.amazon.com/ec2/nitro/nitro-enclaves/
+    Rethinking race-free process signaling https://lwn.net/Articles/784831/
+    A proof-carrying approach to building correct and flexible in-kernel verifiers https://lpc.events/event/11/contributions/944/attachments/893/1707/2021-09-23-lpc21.pdf
+    https://github.com/uw-unsat/exoverifier
+    IBM implements remote attestation on Linux with a hardware root-of-trust using Keylime https://www.cncf.io/blog/2021/07/06/ibm-implements-remote-attestation-on-linux-with-a-hardware-root-of-trust-using-keylime/
+    Lockless Ring Buffer Design https://docs.kernel.org/trace/ring-buffer-design.html
+    Automotive Safety Integrity Level https://en.wikipedia.org/wiki/Automotive_Safety_Integrity_Level
+
+- name: Talks/Videos
+  queue: |
+    ARINC 653 AND MULTI-CORE MICROPROCESSORS – CONSIDERATIONS AND POTENTIAL IMPACTS
+    Taking Apart and Taking Over ICS & SCADA Ecosystems: A Case Study of Mitsubishi Electric https://infocondb.org/con/def-con/def-con-29/taking-apart-and-taking-over-ics-scada-ecosystems-a-case-study-of-mitsubishi-electric
+    Automotive Ethernet Fuzzing: From purchasing ECU to SOME/IP fuzzing https://forum.defcon.org/node/242347
+    DEF CON 30 Car Hacking Village (playlist) https://www.youtube.com/watch?v=g4SxSTqv-Bk&list=PL9fPq3eQfaaBWzHk48RZOPJ8NdF-eH1Qg
+    DEF CON 30 Main Talks https://www.youtube.com/watch?v=z2_TLz9TpwY&list=PL9fPq3eQfaaAGKQQz-du1udbmRehqUDIL&index=2
+    Netdev 0x13 - XDP offload with virtio net https://www.youtube.com/watch?v=OwdU7OeO9b0
+    Moving Towards ROS 2 on Safety Critical Systems - Tully Foote, Open Robotics https://www.youtube.com/watch?app=desktop&v=N01oBQKIVRg
+

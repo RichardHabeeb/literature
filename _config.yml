@@ -26,10 +26,11 @@ url: ""
 twitter_username: "0xdeadbeeb"
 github_username:  richardhabeeb
 
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
+
+# Build settings
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -50,3 +51,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
