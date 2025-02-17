@@ -2,6 +2,7 @@
   queue: |
     SoK: SGX.Fail: How Stuff Gets eXposed
     SoK: Prudent Evaluation Practices for Fuzzing
+    Advanced Technologies and Their Use in Smart City Management
     Shedding Light on Static Partitioning Hypervisors for Arm-based Mixed-Criticality Systems
     Security analysis of drones systems: Attacks, limitations, and recommendations
     Unmanned aircraft systems: Surveillance, ethics and privacy in civil applications
@@ -58,6 +59,7 @@
 
 - name: TrustZone Enclaves
   queue: |
+    MultiTEE: Distributing Trusted Execution Environments
     VOSYSmonitor, a TrustZone-based Hypervisor for ISO 26262 Mixed-critical System
     Fortress: Securing IoT Peripherals with Trusted Execution Environments
     Safe and Practical GPU Computation in TrustZone
@@ -103,6 +105,8 @@
     VirTEE: a full backward-compatible TEE with native live migration and secure I/O
     Certifying Program Execution wi/th Secure Processors
     A Hypervisor-Based System for Protecting Software Runtime Memory and Persistent Storage
+    Performance Impacts from the seL4 Hypervisor
+    The seL4 Microkernel – A Robust, Resilient, and Open-Source Foundation for Ground Vehicle Electronics Architecture
     Comprehensive VM Protection Against Untrusted Hypervisor Through Retrofitted AMD Memory Encryption
     A zero-copy fast channel for inter-guest and guest-host communication using VirtIO-serial
     A Secure and Formally Verified Linux KVM Hypervisor
@@ -113,9 +117,12 @@
     Strong Tenant Separation in Cloud Computing Platforms
     Tamper-Resistant Execution in an Untrusted Operating System Using A Virtual Machine Monitor
     Quest-V, a Partitioning Hypervisor for Latency-Sensitive Workloads
+    NoHype: virtualized cloud infrastructure without the virtualization
+    Architectural Support for Secure Virtualization under a Vulnerable Hypervisor
 
 - name: RISC-V and Custom Hardware Enclaves
   queue: |
+    HIVE: A Hardware-assisted Isolated Execution Environment for eBPF on AArch64
     Heterogeneous Isolated Execution for Commodity GPUs
     Elasticlave: An Efficient Memory Model for Enclaves
     Implementing an untrusted operating system on trusted hardware
@@ -191,6 +198,10 @@
 
 - name: Real Time, Data-Centric Publish Subscribe, Mixed-Criticality
   queue: |
+    ILP Representations of Multi-Phase Limited-Preemption Tasks
+    ADLP: Accountable Data Logging Protocol for Publish-Subscribe Communication Systems
+    Design and verification of secure systems
+    Supporting I/O and IPC via Fine-Grained OS Isolation for Mixed-Criticality Real-Time Tasks
     A Portable Lock-Free Bounded Queue
     Evaluating Real-Time Publish/Subscribe Service Integration Approaches in QoS-Enabled Component Middleware
     SCE-Comm: A Real-Time Inter-Core Communication Framework for Strictly Partitioned Multi-core Processors
@@ -200,7 +211,6 @@
     A Real-Time virtio-based Framework for Predictable Inter-VM Communication
     MemPol: Policing Core Memory Bandwidth from Outside of the Cores
     MemGuard: Memory Bandwidth Reservation System for Efficient Performance Isolation in Multi-core Platforms
-    Design and verification of secure systems
     Predictable Communication and Migration in the Quest-V Separation Kernel
     Real-time cache management framework for multi-core architectures
     SCE-Comm: A Real-Time Inter-Core Communication Framework for Strictly Partitioned Multi-core Processors
@@ -253,6 +263,9 @@
 
 - name: Self-Driving Cars, Robotics, Cyber-Physical Systems, IoT
   queue: |
+    An Initial Investigation of Unmanned Aircraft Systems (UAS) and Real-Time Organ Status Measurement for Transporting Human Organs
+    Autonomous Vehicles: Disengagements, Accidents and Reaction Times
+    Opportunistic Data Flow Integrity for Real-time Cyber-physical Systems Using Worst Case Execution Time Reservation
     A Formal Approach to Constructing Secure Air Vehicle Software
     Medical Device Security in the IoT Age
     Clinical applications of artificial intelligence in robotic surgery
@@ -286,6 +299,14 @@
 
 - name: Attacks
   queue: |
+    Hacking the Parrot A.R. Drone
+    The Deep Sweep (2015) High-altitude Signal Research
+    Catch me if you can: Covert Information Leakage from Drones using MAVLink Protocol
+    Hacking Medical Devices for Fun and Insulin: Breaking the Human SCADA System
+    Vulnerability analysis of Qualcomm Secure Execution Environment (QSEE)
+    Identifying Channel Related Vulnerabilities in Zephyr Firmware
+    Towards Evaluating the Robustness of Neural Networks
+    Extracting Training Data from Diffusion Models.
     Cache side-channel attacks and time-predictability in high-performance critical real-time systems
     Using model checking tools to triage the severity of security bugs in the Xen hypervisor
     Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
@@ -315,6 +336,7 @@
 
 - name: Verification, Formal Methods, Programming Languages
   queue: |
+    Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes
     Proof of Separability---A Verification Technique for a Class of Security Kernels
     Formal Proof
     VeriSMo: A Verified Security Module for Confidential VMs
@@ -360,11 +382,28 @@
 
 - name: Program Analysis and Fuzzing
   queue: |
+      Physical Devices-Agnostic Hybrid Fuzzing of IoT Firmware
       SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing
       Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions https://vbpf.github.io/
 
 
-
+- name: Concurrency, Atomics, Memory Models
+  queue: |
+      No Barrier in the Road: A Comprehensive Study and Optimization of ARM Barriers
+      A Pragmatic Implementation of Non-blocking Linked-lists
+      A scalable multi-producer multi-consumer wait-free ring buffer
+      A wait-free multi-producer multi-consumer ring buffer
+      A C++ shared-memory ring-buffer framework for large-scale data acquisition systems
+      A simple, fast and scalable non-blocking concurrent FIFO queue for shared memory multiprocessor systems
+      Lock-free data structures
+      A Method for Implementing Lock-Free Shared Data Structures
+      A Methodology for Implementing Highly Concurrent Data Objects
+      A methodology for creating fast wait-free data structures
+      Optimised Lock-Free FIFO Queue (Dominique Fober, Yann Orlarey, Stéphane Letz)
+      Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms
+      A practical non-blocking queue algorithm using compare-and-swap
+      What Every Programmer Should Know About Memory
+      Non-Blocking Concurrent FIFO Queues with Single Word Synchronization Primitives
 
 
 
@@ -407,6 +446,7 @@
 
 - name: Attestation, Root-of-Trust
   queue: |
+    On Bridging the Gap between Control Flow Integrity and Attestation Schemes
     New Results for Timing-Based Attestation
     On the TOCTOU Problem in Remote Attestation
     Invited - Things, trouble, trust: on building trust in IoT systems
@@ -434,6 +474,8 @@
 
 - name: Misc Historical
   queue: |
+    A Nitpicker's guide to a minimal-complexity secure GUI
+    Design of the EROS Trusted Window System
     SLIC: An Extensibility System for Commodity Operating Systems
     Extensibility, Safety and Performance in the SPIN Operating System
     The operating system kernel as a secure programmable machine
@@ -441,6 +483,10 @@
     Dynamo: amazon's highly available key-value store
     FlexSC: Flexible System Call Scheduling with Exception-Less System Calls
     Resilient overlay networks
+    Random Oracles are Practical: A Paradigm for Designing Efficient Protocols
+    Deep Learning with Differential Privacy
+    The protection of information in computer systems
+    Attribute-based encryption for fine-grained access control of encrypted data
     SplitStream: high-bandwidth multicast in cooperative environments
     Managing energy and server resources in hosting centers
     Real-time dynamic voltage scaling for low-power embedded operating systems
@@ -497,6 +543,9 @@
 
 - name: Unsorted
   queue: |
+      The HitchHiker’s Guide to High-Assurance System Observability Protection with Efficient Permission Switches
+      Rethinking System Audit Architectures for High Event Coverage and Synchronous Log Availability
+      Endokernel: A Thread Safe Monitor for Lightweight Subprocess Isolation
       A Systematic Study of Physical Sensor Attack Hardness
       Investigating Voter Perceptions of Printed Physical Audit Trails for Online Voting
       Flock: A Framework for Deploying On-Demand Distributed Trust
@@ -532,12 +581,23 @@
 
 - name: Articles, Blogs, Slides
   queue: |
+    Man arrested for landing 'radioactive' drone on Japanese Prime Minister's roof
+    Venezuelan President Targeted by Drone Attack, Officials Say
+    It’s Official: Cars Are the Worst Product Category We Have Ever Reviewed for Privacy
+    Trust Issues: Exploiting TrustZone TEEs
+    https://googleprojectzero.blogspot.com/2017/07/trust-issues-exploiting-trustzone-tees.html
+    A very short history of PLC programming platforms
+    https://www.controldesign.com/control/control-software/article/11317865/a-very-short-history-of-plc-programming-platforms
+    How terrible software design decisions led to Uber’s deadly 2018 crash
+    https://arstechnica.com/cars/2019/11/how-terrible-software-design-decisions-led-to-ubers-deadly-2018-crash/
+    CHERIoT Platform
+    https://cheriot.org/
+    LiDAR Drone Systems: Using LiDAR Equipped UAVs
+    https://enterprise-insights.dji.com/blog/lidar-equipped-uavs
     SMACCM
     https://trustworthy.systems/projects/OLD/SMACCM/
     Who Needs a Hypervisor?
     https://www.lynx.com/embedded-systems-learning-center/do-you-need-a-hypervisor
-    PikeOS RTOS Security
-    https://www.sysgo.com/rtos-security
     ‘Incompetent’ driverless cars are wreaking havoc on San Francisco
     https://www.sfgate.com/tech/article/cruise-waymo-driverless-cars-san-francisco-18132953.php
     Understanding The Growing Trend of ECU Virtualization
