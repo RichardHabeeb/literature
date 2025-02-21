@@ -9,6 +9,18 @@
   volume: '20'
   year: '1973'
 - ENTRYTYPE: article
+  ID: LeastPrivilege1975
+  author: Saltzer, J.H. and Schroeder, M.D.
+  doi: 10.1109/PROC.1975.9939
+  journal: Proceedings of the IEEE
+  keywords: Protection;Authorization;Permission;Access control;Terminology;Data security;Information
+    security;Computer architecture;Modems
+  number: '9'
+  pages: 1278--1308
+  title: The protection of information in computer systems
+  volume: '63'
+  year: '1975'
+- ENTRYTYPE: article
   ID: Lamport1977
   author: Lamport, Leslie
   doi: 10.1109/tse.1977.229904
@@ -30,6 +42,20 @@
   volume: '23'
   year: '1980'
 - ENTRYTYPE: article
+  ID: DesignVerificationSecureSystems1980
+  author: Rushby, John M.
+  doi: 10.1145/1067627.806586
+  issn: 0163-5980
+  journal: ACM SIGOPS Operating Systems Review
+  month: dec
+  number: '5'
+  pages: 12--21
+  publisher: ACM New York, NY, USA
+  title: Design and verification of secure systems
+  url: https://doi.org/10.1145/1067627.806586
+  volume: '15'
+  year: '1981'
+- ENTRYTYPE: article
   ID: Subsumption1986
   author: Brooks, Rodney
   doi: 10.1109/jra.1986.1087032
@@ -40,6 +66,16 @@
   title: A robust layered control system for a mobile robot
   volume: '2'
   year: '1986'
+- ENTRYTYPE: article
+  ID: ConfusedDeputy1988
+  author: Hardy, Norm
+  journal: ACM SIGOPS Operating Systems Review
+  number: '4'
+  pages: 36--38
+  publisher: ACM New York, NY, USA
+  title: '{The Confused Deputy}: (or why capabilities might have been invented)'
+  volume: '22'
+  year: '1988'
 - ENTRYTYPE: article
   ID: ArenaAllocation1990
   author: Hanson, David R
@@ -62,6 +98,17 @@
   title: 'Priority inheritance protocols: An approach to real-time synchronization'
   volume: '39'
   year: '1990'
+- ENTRYTYPE: article
+  ID: MCSLock1991
+  author: Mellor-Crummey, John M and Scott, Michael L
+  doi: 10.1145/103727.103729
+  journal: ACM Transactions on Computer Systems (TOCS)
+  number: '1'
+  pages: 21--65
+  publisher: ACM New York, NY, USA
+  title: Algorithms for scalable synchronization on shared-memory multiprocessors
+  volume: '9'
+  year: '1991'
 - ENTRYTYPE: inproceedings
   ID: PriorityManagement1993
   author: Nakajima, Tatsuo and Kitayama, Takuro and Arakawa, Hiroshi and Tokuda, Hideyuki
@@ -263,6 +310,23 @@
     studies'
   url: https://doi.org/10.1145/1217935.1217951
   year: '2006'
+- ENTRYTYPE: article
+  ID: Minix2006
+  author: Herder, Jorrit N. and Bos, Herbert and Gras, Ben and Homburg, Philip and
+    Tanenbaum, Andrew S.
+  doi: 10.1145/1151374.1151391
+  issn: 0163-5980
+  issue_date: July 2006
+  journal: SIGOPS Operating Systems Review
+  month: July
+  number: '3'
+  numpages: '10'
+  pages: "80\u201389"
+  publisher: ACM New York, NY, USA
+  title: 'MINIX 3: a highly reliable, self-repairing operating system'
+  url: https://doi.org/10.1145/1151374.1151391
+  volume: '40'
+  year: '2006'
 - ENTRYTYPE: inproceedings
   ID: MultiCriticality2007
   author: Vestal, Steve
@@ -280,9 +344,18 @@
   number: '12'
   pages: 188--200
   title: Design and performance of {DDS}-based middleware for real-time control systems
+  url: https://community.rti.com/content/paper/design-and-performance-dds-based-middleware-real-time-control-systems
   volume: '7'
   year: '2007'
-  url: https://community.rti.com/content/paper/design-and-performance-dds-based-middleware-real-time-control-systems
+- ENTRYTYPE: inproceedings
+  ID: EvolutionOfPikeOS2007
+  author: Kaiser, Robert and Wagner, Stephan
+  booktitle: First International Workshop on MicroKernels for Embedded Systems
+  location: Sydney, Australia
+  month: January
+  series: MIKES '07
+  title: Evolution of the PikeOS microkernel
+  year: '2007'
 - ENTRYTYPE: inproceedings
   ID: TimeAndSpacePartitioning2008
   author: Littlefield-Lawwill, Justin and Kinnan, Larry
@@ -350,6 +423,35 @@
   title: Trusted computing building blocks for embedded linux-based ARM trustzone
     platforms
   year: '2008'
+- ENTRYTYPE: article
+  ID: SoKAutonomic2008
+  articleno: '7'
+  author: Huebscher, Markus C. and McCann, Julie A.
+  doi: 10.1145/1380584.1380585
+  issn: 0360-0300
+  issue_date: August 2008
+  journal: ACM Computing Surveys
+  keywords: Autonomic computing, self-adaptive, self-healing systems
+  month: August
+  number: '3'
+  numpages: '28'
+  publisher: ACM New York, NY, USA
+  title: "A survey of autonomic computing\u2014degrees, models, and applications"
+  url: https://doi.org/10.1145/1380584.1380585
+  volume: '40'
+  year: '2008'
+- ENTRYTYPE: inproceedings
+  ID: RoleOfVirtualization2008
+  address: Glasgow, UK
+  author: Heiser, Gernot
+  booktitle: Proceedings of the 1st workshop on Isolation and Integration in Embedded
+    Systems
+  doi: 10.1145/1435458.1435461
+  month: April
+  pages: 11--16
+  series: "IIES \u201908"
+  title: The role of virtualization in embedded systems
+  year: '2008'
 - ENTRYTYPE: inproceedings
   ID: LockFree2009
   author: Lee, Patrick PC and Bu, Tian and Chandranmenon, Girish
@@ -390,11 +492,11 @@
 - ENTRYTYPE: book
   ID: TXT2009
   author: Grawrock, David
+  isbn: 1934053171
   publisher: Intel Press
   title: 'Dynamics of a Trusted Platform: A building block approach'
-  year: '2009'
-  isbn: 1934053171
   url: https://dl.acm.org/doi/abs/10.5555/1610416
+  year: '2009'
 - ENTRYTYPE: article
   ID: ColdBoot2009
   author: Halderman, J Alex and Schoen, Seth D and Heninger, Nadia and Clarkson, William
@@ -464,6 +566,48 @@
   title: GlobalPlatform Device Technology TEE Client API Specification Version 1.0
   year: '2010'
 - ENTRYTYPE: inproceedings
+  ID: ABAProblems2010
+  author: Dechev, Damian and Pirkelbauer, Peter and Stroustrup, Bjarne
+  booktitle: 13th IEEE International Symposium on Object/Component/Service-Oriented
+    Real-Time Distributed Computing
+  organization: IEEE
+  pages: 185--192
+  title: Understanding and effectively preventing the {ABA} problem in descriptor-based
+    lock-free designs
+  url: https://doi.org/10.1109/ISORC.2010.10
+  year: '2010'
+- ENTRYTYPE: inproceedings
+  ID: FlexSC2010
+  address: Vancouver, BC
+  author: Soares, Livio and Stumm, Michael
+  booktitle: 9th USENIX Symposium on Operating Systems Design and Implementation
+  month: October
+  publisher: USENIX Association
+  title: '{FlexSC}: Flexible system call scheduling with {Exception-Less} system calls'
+  url: https://www.usenix.org/conference/osdi10/flexsc-flexible-system-call-scheduling-exception-less-system-calls
+  year: '2010'
+- ENTRYTYPE: techreport
+  ID: Stuxnet2010
+  author: Martin Brunner and Hans Hofinger and Christoph Krauss and Christopher Roblee
+    and Peter Schoo and Sascha Todt
+  institution: Fraunhofer
+  month: December
+  title: Infiltrating critical infrastructures with next-generation attacks w32.stuxnet
+    as a showcase threat
+  year: '2010'
+- ENTRYTYPE: inproceedings
+  ID: EvaluationMicrokernelVirtualization2010
+  author: Bruns, Felix and Traboulsi, Shadi and Szczesny, David and Gonzalez, Elizabeth
+    and Xu, Yang and Bilgic, Attila
+  booktitle: 2010 22nd Euromicro Conference on Real-Time Systems
+  doi: 10.1109/ecrts.2010.28
+  organization: IEEE
+  pages: 57--65
+  series: ECRTS '10
+  title: An evaluation of microkernel-based virtualization for embedded real-time
+    systems
+  year: '2010'
+- ENTRYTYPE: inproceedings
   ID: CertiKOS2011
   address: New York, NY, USA
   articleno: '3'
@@ -505,6 +649,24 @@
   url: http://static.usenix.org/events/sec11/tech/full_papers/Checkoway.pdf
   volume: '4'
   year: '2011'
+- ENTRYTYPE: techreport
+  ID: Stuxnet2011
+  author: Falliere, Nicolas and Murchu, Liam O and Chien, Eric
+  institution: Symantec Corp.
+  month: February
+  title: '{W32.Stuxnet} dossier'
+  year: '2011'
+- ENTRYTYPE: inproceedings
+  ID: seL4WCET2011
+  author: Blackham, Bernard and Shi, Yao and Chattopadhyay, Sudipta and Roychoudhury,
+    Abhik and Heiser, Gernot
+  booktitle: IEEE 32nd Real-Time Systems Symposium
+  doi: 10.1109/rtss.2011.38
+  organization: IEEE
+  pages: 339--348
+  series: RTSS '11
+  title: Timing analysis of a protected operating system kernel
+  year: '2011'
 - ENTRYTYPE: inproceedings
   ID: FastPath2012
   author: Blackham, Bernard and Heiser, Gernot
@@ -533,9 +695,19 @@
   title: Integrated scheduling for a reliable dual-os monitor
   volume: '7'
   year: '2012'
+- ENTRYTYPE: inproceedings
+  ID: GhostInTheAir2012
+  address: Las Vegas, NV
+  author: Costin, Andrei and Francillon, Aur{\'e}lien and others
+  booktitle: Black Hat USA
+  month: July
+  title: 'Ghost in the air (traffic): On insecurity of {ADS-B} protocol and practical
+    attacks on {ADS-B} devices'
+  year: '2012'
 - ENTRYTYPE: article
   ID: TheAirGap2013
   author: Byres, Eric
+  doi: 10.1145/2492007.2492018
   journal: Communications of the {ACM}
   number: '8'
   pages: 29--31
@@ -543,7 +715,6 @@
   title: 'The air gap: SCADA''s enduring security myth'
   volume: '56'
   year: '2013'
-  doi: 10.1145/2492007.2492018
 - ENTRYTYPE: article
   ID: DualOSCommunication2013
   author: Sangorrin, Daniel and Honda, Shinya and Takada, Hiroaki
@@ -552,9 +723,10 @@
   pages: 1--17
   publisher: Information and Media Technologies Editorial Board
   title: Reliable and efficient dual-os communications for real-time embedded virtualization
+  url: https://doi.org/10.11185/imt.8.1
   volume: '8'
   year: '2013'
-- ENTRYTYPE: techreport 
+- ENTRYTYPE: techreport
   ID: MixedCriticality2013
   author: Burns, Alan and Davis, Robert
   journal: Department of Computer Science, University of York
@@ -620,9 +792,9 @@
   number: '7'
   organization: '{ACM} New York, NY, USA'
   title: Innovative technology for CPU based attestation and sealing
+  url: https://www.intel.com/content/www/us/en/developer/articles/technical/innovative-technology-for-cpu-based-attestation-and-sealing.html
   volume: '13'
   year: '2013'
-  url: https://www.intel.com/content/www/us/en/developer/articles/technical/innovative-technology-for-cpu-based-attestation-and-sealing.html
 - ENTRYTYPE: article
   ID: SGXUsingInstructions2013
   author: Hoekstra, Matthew and Lal, Reshma and Pappachan, Pradeep and Phegade, Vinay
@@ -643,6 +815,29 @@
   pages: 265--278
   title: 'InkTag: Secure applications on an untrusted operating system'
   url: https://doi.org/10.1145/2451116.2451146
+  year: '2013'
+- ENTRYTYPE: inproceedings
+  ID: MemGuard2013
+  address: Philadelphia, PA, USA
+  author: Yun, Heechul and Yao, Gang and Pellizzoni, Rodolfo and Caccamo, Marco and
+    Sha, Lui
+  booktitle: Proceedings of the 19th IEEE Real-Time and Embedded Technology and Applications
+    Symposium
+  doi: 10.1109/RTAS.2013.6531079
+  keywords: Bandwidth;Random access memory;Multicore processing;Real-time systems;Regulators;Benchmark
+    testing;Throughput
+  month: June
+  pages: 55--64
+  series: RTAS '13
+  title: 'MemGuard: Memory bandwidth reservation system for efficient performance
+    isolation in multi-core platforms'
+  year: '2013'
+- ENTRYTYPE: manual
+  ID: GICManual
+  organization: ARM
+  title: '{ARM Generic Interrupt Controller Architecture Version 2.0 --- Architecture
+    Specification}'
+  url: https://developer.arm.com/Architectures/Generic%20Interrupt%20Controller
   year: '2013'
 - ENTRYTYPE: article
   ID: VirtualGhost2014
@@ -679,9 +874,9 @@
   journal: "Volume I: User-Level {ISA}\u2019, version"
   pages: 1--79
   title: The RISC-V instruction set manual
+  url: https://riscv.org/wp-content/uploads/2019/06/riscv-spec.pdf
   volume: '2'
   year: '2014'
-  url: https://riscv.org/wp-content/uploads/2019/06/riscv-spec.pdf
 - ENTRYTYPE: inproceedings
   ID: TrustLite2014
   author: Koeberl, Patrick and Schulz, Steffen and Sadeghi, Ahmad-Reza and Varadharajan,
@@ -690,6 +885,74 @@
   pages: 1--14
   title: '{TrustLite}: A security architecture for tiny embedded devices'
   url: https://doi.org/10.1145/2592798.2592824
+  year: '2014'
+- ENTRYTYPE: inproceedings
+  ID: PALLOC2014
+  author: Yun, Heechul and Mancuso, Renato and Wu, Zheng-Pei and Pellizzoni, Rodolfo
+  booktitle: 19th Real-Time and Embedded Technology and Applications Symposium
+  doi: 10.1109/RTAS.2014.6925999
+  keywords: Random access memory;Multicore processing;Resource management;Hardware;Benchmark
+    testing;Kernel;Real-time systems
+  pages: 155--166
+  publisher: IEEE
+  series: RTAS '14
+  title: '{PALLOC}: {DRAM} bank-aware memory allocator for performance isolation on
+    multicore platforms'
+  year: '2014'
+- ENTRYTYPE: inproceedings
+  ID: RealTimeXen2014
+  address: New Delhi, India
+  articleno: '27'
+  author: Xi, Sisu and Xu, Meng and Lu, Chenyang and Phan, Linh T. X. and Gill, Christopher
+    and Sokolsky, Oleg and Lee, Insup
+  booktitle: Proceedings of the 14th International Conference on Embedded Software
+  doi: 10.1145/2656045.2656066
+  isbn: '9781450330527'
+  numpages: '10'
+  publisher: ACM New York, NY, USA
+  series: EMSOFT '14
+  title: Real-time multi-core virtual machine scheduling in xen
+  url: https://doi.org/10.1145/2656045.2656066
+  year: '2014'
+- ENTRYTYPE: article
+  ID: GPSSpoofing2014
+  author: Kerns, Andrew J and Shepard, Daniel P and Bhatti, Jahshan A and Humphreys,
+    Todd E
+  journal: Journal of Field Robotics
+  number: '4'
+  pages: 617--636
+  publisher: Wiley Online Library
+  title: Unmanned aircraft capture and control via {GPS} spoofing
+  url: https://doi.org/10.1002/rob.21513
+  volume: '31'
+  year: '2014'
+- ENTRYTYPE: inproceedings
+  ID: Haven2014
+  address: Broomfield, CO
+  author: Baumann, Andrew and Peinado, Marcus and Hunt, Galen
+  booktitle: Proceedings of the 11th USENIX Conference on Operating Systems Design
+    and Implementation
+  isbn: '9781931971164'
+  month: October
+  pages: 267--283
+  publisher: USENIX Association
+  series: OSDI '14
+  title: Shielding applications from an untrusted cloud with {Haven}
+  url: https://doi.org/10.1145/2799647
+  year: '2014'
+- ENTRYTYPE: manual
+  ID: RISC-V-ISA-Manual2017
+  author: Waterman, Andrew and Asanovi{\'c}, Krste
+  edition: '2.2'
+  howpublished: Available at \url{https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf}
+  title: 'The {RISC-V} Instruction Set Manual Volume I: User-Level {ISA}'
+  year: '2014'
+- ENTRYTYPE: manual
+  ID: TZASC
+  organization: '{ARM}'
+  title: '{ARM CoreLink TZC-400 TrustZone Address Space Controller Technical Reference
+    Manual}'
+  url: https://developer.arm.com/documentation/ddi0504/c/
   year: '2014'
 - ENTRYTYPE: inproceedings
   ID: SeCReT2015
@@ -765,6 +1028,26 @@
   doi: 10.1145/2695664.2695924
   pages: 1321--1328
   title: A scalable multi-producer multi-consumer wait-free ring buffer
+  year: '2015'
+- ENTRYTYPE: article
+  ID: PreparingForAutonomousVehicles2015
+  author: Fagnant, Daniel J and Kockelman, Kara
+  doi: 10.1016/j.tra.2015.04.003
+  journal: 'Transportation Research Part A: Policy and Practice'
+  pages: 167--181
+  publisher: Elsevier
+  title: 'Preparing a nation for autonomous vehicles: opportunities, barriers and
+    policy recommendations'
+  volume: '77'
+  year: '2015'
+- ENTRYTYPE: inproceedings
+  ID: JeepExploit2015
+  address: Las Vegas, NV
+  author: Miller, Charlie
+  booktitle: Black Hat USA
+  month: August
+  note: Available at \url{https://ioactive.com/pdfs/IOActive_Remote_Car_Hacking.pdf}
+  title: Remote exploitation of an unaltered passenger vehicle
   year: '2015'
 - ENTRYTYPE: article
   ID: RTZVisor2016
@@ -906,6 +1189,24 @@
   title: Hacking a professional drone
   url: https://www.blackhat.com/docs/asia-16/materials/asia-16-Rodday-Hacking-A-Professional-Drone.pdf
   volume: '2016'
+  year: '2016'
+- ENTRYTYPE: inproceedings
+  ID: EmbeddedHypervisorPerformance2016
+  author: Toumassian, Sebouh and Werner, Rico and Sikora, Axel
+  booktitle: 2016 International Conference on Advances in Computing, Communications
+    and Informatics
+  organization: IEEE
+  pages: 851--855
+  series: ICACCI '16
+  title: Performance measurements for hypervisors on embedded {ARM} processors
+  url: https://doi.org/10.1109/ICACCI.2016.7732152
+  year: '2016'
+- ENTRYTYPE: techreport
+  ID: UkrainianPowerAttack2016
+  address: Washington, DC
+  author: Lee, Robert M. and Assante, Michael J, and Conway, Tim
+  institution: '{SANS ICS}, {E-ISAC}'
+  title: Analysis of the cyber attack on the Ukrainian power grid
   year: '2016'
 - ENTRYTYPE: inproceedings
   ID: Dosovitskiy17
@@ -1151,6 +1452,97 @@
   title: San Mateo cyber security firm uncovers malware on medical devices
   year: '2017'
 - ENTRYTYPE: inproceedings
+  ID: CARLA2017
+  author: Alexey Dosovitskiy and German Ros and Felipe Codevilla and Antonio Lopez
+    and Vladlen Koltun
+  booktitle: Proceedings of the 1st Annual Conference on Robot Learning
+  month: 13--15 Nov
+  pages: 1--16
+  publisher: Proceedings of Machine Learning Research (PMLR)
+  series: CoRL '17
+  title: '{CARLA}: {An} Open Urban Driving Simulator'
+  url: https://proceedings.mlr.press/v78/dosovitskiy17a.html
+  volume: '78'
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: Eleos2017
+  address: Belgrade, Serbia
+  author: Orenbach, Meni and Lifshits, Pavel and Minkin, Marina and Silberstein, Mark
+  booktitle: Proceedings of the Twelfth European Conference on Computer Systems
+  month: April
+  pages: 238--253
+  series: EuroSys '17
+  title: '{Eleos}: {ExitLess} {OS} services for {SGX} enclaves'
+  url: https://doi.org/10.1145/3064176.3064219
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: vTZ2017
+  address: Vancouver, BC
+  author: Zhichao Hua and Jinyu Gu and Yubin Xia and Haibo Chen and Binyu Zang and
+    Haibing Guan
+  booktitle: 26th USENIX Security Symposium
+  isbn: 978-1-931971-40-9
+  month: August
+  pages: 541--556
+  publisher: USENIX Association
+  series: USENIX Security '17
+  title: '{vTZ}: Virtualizing {ARM} {TrustZone}'
+  url: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/hua
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: VulCAN2017
+  address: Orlando, FL, USA
+  author: Van Bulck, Jo and M\"{u}hlberg, Jan Tobias and Piessens, Frank
+  booktitle: Proceedings of the 33rd Annual Computer Security Applications Conference
+  doi: 10.1145/3134600.3134623
+  isbn: '9781450353458'
+  keywords: Automotive security, CAN, Protected module, Trusted computing
+  numpages: '13'
+  pages: "225\u2013237"
+  publisher: ACM New York, NY, USA
+  series: ACSAC '17
+  title: '{VulCAN}: Efficient component authentication and software isolation for
+    automotive control networks'
+  url: https://doi.org/10.1145/3134600.3134623
+  year: '2017'
+- ENTRYTYPE: techreport
+  ID: SMACCM2017
+  author: Cofer, Darren and Backes, John and Gacek, Andrew and DaCosta, Daniel and
+    Whalen, Michael and Kuz, Ihor and Klein, Gerwin and Heiser, Gernot and Pike, Lee
+    and Foltzer, Adam and Michal Podhradsky and Douglas Stuart and Jason Grahan and
+    Brett Wilson
+  institution: Air Force Research Laboratory (RITA)
+  month: September
+  title: Secure mathematically-assured composition of control models
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: FreeFallHackingTesla2017
+  address: Las Vegas, NV
+  author: Sen Nie and Ling Liu and Yuefeng Du
+  booktitle: Black Hat USA 2017
+  mon: July
+  title: 'Free-Fall: Hacking Tesla from wireless to {CAN} bus'
+  year: '2017'
+- ENTRYTYPE: inproceedings
+  ID: IllusionAndDazzle2017
+  address: Taipei, Taiwan
+  author: Shin, Hocheol and Kim, Dohyun and Kwon, Yujin and Kim, Yongdae
+  booktitle: 19th International Conference on Cryptographic Hardware and Embedded
+    Systems
+  doi: 10.1007/978-3-319-66787-4_22
+  month: September
+  organization: Springer
+  pages: 445--467
+  series: CHES '17
+  title: 'Illusion and dazzle: Adversarial optical channel exploits against lidars
+    for automotive applications'
+  year: '2017'
+- ENTRYTYPE: manual
+  ID: TX2-TRM
+  author: '{NVIDIA}'
+  title: '{NVIDIA Parker Series SoC Technical Reference Manual}'
+  year: '2017'
+- ENTRYTYPE: inproceedings
   ID: Autoware2018
   author: Kato, Shinpei and Tokunaga, Shota and Maruyama, Yuya and Maeda, Seiya and
     Hirabayashi, Manato and Kitsukawa, Yuki and Monrroy, Abraham and Ando, Tomohito
@@ -1232,11 +1624,11 @@
   author: "Oliveira, Andr\xE9 and Martins, Jos\xE9 and Cabral, Jorge and Tavares,\
     \ Adriano and Pinto, Sandro"
   booktitle: 2018 {IEEE} 27th International Symposium on Industrial Electronics (ISIE)
+  doi: 10.1109/ISIE.2018.8433781
   organization: '{IEEE}'
   pages: 708--713
   title: '{TZ-VirtIO}: Enabling standardized inter-partition communication in a TrustZone-assisted
     hypervisor'
-  doi: 10.1109/ISIE.2018.8433781
   year: '2018'
 - ENTRYTYPE: inproceedings
   ID: TZDKS2018
@@ -1259,6 +1651,56 @@
   author: GlobalPlatform
   month: June
   title: GlobalPlatform Technology TEE Internal Core API Specification Version 1.1.2.50
+  year: '2018'
+- ENTRYTYPE: unpublished
+  ID: Meltdown2018
+  author: Lipp, Moritz and Schwarz, Michael and Gruss, Daniel and Prescher, Thomas
+    and Haas, Werner and Mangard, Stefan and Kocher, Paul and Genkin, Daniel and Yarom,
+    Yuval and Hamburg, Mike
+  note: arXiv preprint arXiv:1801.01207
+  title: Meltdown
+  year: '2018'
+- ENTRYTYPE: article
+  ID: SoKIoTCyberattack2018
+  author: Stellios, Ioannis and Kotzanikolaou, Panayiotis and Psarakis, Mihalis and
+    Alcaraz, Cristina and Lopez, Javier
+  journal: IEEE Communications Surveys \& Tutorials
+  number: '4'
+  pages: 3453--3495
+  publisher: IEEE
+  title: 'A survey of {IoT}-enabled cyberattacks: Assessing attack paths to critical
+    infrastructures and services'
+  url: https://doi.org/10.1109/COMST.2018.2855563
+  volume: '20'
+  year: '2018'
+- ENTRYTYPE: techreport
+  ID: TheConnectedCar2018
+  author: Daan Keuper, Thijs Alkemade
+  howpublished: Available at \url{https://www.computest.nl/documents/9/The_Connected_Car._Research_Rapport_Computest_april_2018.pdf}
+  institution: Computest
+  title: 'The Connected Car: Ways to get unauthorized access and potential implications'
+  year: '2018'
+- ENTRYTYPE: manual
+  ID: ARMv7-Manual
+  organization: ARM
+  title: '{ARM Architecture Reference Manual ARMv7-A and ARMv7-R edition}'
+  url: https://developer.arm.com/documentation/ddi0406/latest/
+  year: '2018'
+- ENTRYTYPE: misc
+  ID: ParrotDronesHijacking2018
+  author: Pedro Cabrera
+  howpublished: Available at \url{https://www.rsaconference.com/Library/presentation/USA/2018/parrot-drones-hijacking}
+  institution: RSA Conference
+  month: April
+  title: Parrot Drones Hijacking
+  year: '2018'
+- ENTRYTYPE: misc
+  ID: CVE-2018-19440
+  author: '{MITRE}'
+  month: November
+  title: '{CVE-2018-19440}'
+  url: Available at \url{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19440}
+  urldate: 23 Jun 2023
   year: '2018'
 - ENTRYTYPE: inproceedings
   ID: LongTail2019
@@ -1413,10 +1855,10 @@
   ID: AForkInTheRoad2019
   author: Baumann, Andrew and Appavoo, Jonathan and Krieger, Orran and Roscoe, Timothy
   booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems
-  pages: 14--22
-  title: 'A fork() in the road'
-  year: '2019'
   doi: 10.1145/3317550.3321435
+  pages: 14--22
+  title: A fork() in the road
+  year: '2019'
 - ENTRYTYPE: article
   ID: RowHammerRetrospective2019
   author: Mutlu, Onur and Kim, Jeremie S
@@ -1443,6 +1885,7 @@
 - ENTRYTYPE: article
   ID: PREEMPT-RTSurvey2019
   author: Reghenzani, Federico and Massari, Giuseppe and Fornaciari, William
+  doi: 10.1145/3297714
   journal: '{ACM} Computing Surveys ({CSUR})'
   number: '1'
   pages: 1--36
@@ -1450,7 +1893,6 @@
   title: 'The real-time linux kernel: A survey on PREEMPT_RT'
   volume: '52'
   year: '2019'
-  doi: 10.1145/3297714
 - ENTRYTYPE: techreport
   ID: CHERI2019
   author: Watson, Robert NM and Moore, Simon W and Sewell, Peter and Neumann, Peter
@@ -1459,13 +1901,69 @@
   title: An introduction to CHERI
   year: '2019'
 - ENTRYTYPE: inproceedings
+  ID: HypSec2019
+  author: Li, Shih-Wei and Koh, John S and Nieh, Jason
+  booktitle: 28th USENIX Security Symposium
+  pages: 1357--1374
+  series: USENIX Security '19
+  title: Protecting cloud virtual machines from hypervisor and host operating system
+    exploits
+  url: https://www.usenix.org/conference/usenixsecurity19/presentation/li-shih-wei
+  year: '2019'
+- ENTRYTYPE: inproceedings
+  ID: RoadwaysToExploitBMW2019
+  address: Las Vegas, NV
+  author: Zhiqiang Cai and Aohui Wang and Wenkai Zhang
+  booktitle: Black Hat USA 2019
+  mon: August
+  title: '0-days \& mitigations: Roadways to exploit and secure connected {BMW} cars'
+  year: '2019'
+- ENTRYTYPE: inproceedings
+  ID: LidarIntegrityVerification2019
+  author: Changalvala, Raghu and Malik, Hafiz
+  booktitle: 2019 IEEE Symposium Series on Computational Intelligence
+  organization: IEEE
+  pages: 1219--1225
+  series: SSCI '19
+  title: Lidar data integrity verification for autonomous vehicle using {3D} data
+    hiding
+  url: https://doi.org/10.1109/SSCI44817.2019.9002737
+  year: '2019'
+- ENTRYTYPE: manual
+  ID: ARMv8-ATranslation
+  organization: ARM
+  title: '{ARMv8-A Address Translation}'
+  url: https://developer.arm.com/documentation/100940/latest
+  year: '2019'
+- ENTRYTYPE: misc
+  ID: RingingInIOURing2019
+  author: Corbet, Johnathan
+  howpublished: Available at \url{https://lwn.net/Articles/776703/}
+  month: January
+  title: Ringing in a new asynchronous {I/O} {API}
+  year: '2019'
+- ENTRYTYPE: misc
+  ID: CVE-2019-1010292
+  month: March
+  title: '{CVE-2019-1010292}'
+  url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1010292
+  urldate: 23 Jun 2023
+  year: '2019'
+- ENTRYTYPE: misc
+  ID: CVE-2019-1010298
+  month: March
+  title: '{CVE-2019-1010298}'
+  url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1010298
+  urldate: 23 Jun 2023
+  year: '2019'
+- ENTRYTYPE: inproceedings
   ID: Keystone2020
   author: "Lee, Dayeol and Kohlbrenner, David and Shinde, Shweta and Asanovi\u0107\
     , Krste and Song, Dawn"
   booktitle: Proceedings of the Fifteenth European Conference on Computer Systems
+  doi: 10.1145/3342195.3387532
   pages: 1--16
   title: 'Keystone: An open framework for architecting trusted execution environments'
-  doi: 10.1145/3342195.3387532
   year: '2020'
 - ENTRYTYPE: article
   ID: SGXAttackSurvey2020
@@ -1527,12 +2025,12 @@
     and Garlan, David
   booktitle: '2020 {IEEE}/{ACM} 42nd International Conference on Software Engineering:
     Software Engineering in Practice (ICSE-SEIP)'
+  doi: 10.1145/3377813.3381358
   organization: '{IEEE}'
   pages: 31--40
   title: How do you architect your robots? State of the practice and guidelines for
     ROS-based systems
   year: '2020'
-  doi: 10.1145/3377813.3381358
 - ENTRYTYPE: phdthesis
   ID: liu2020e
   author: Liu, Mengqi
@@ -1607,6 +2105,63 @@
   title: 'Bao: A lightweight static partitioning hypervisor for modern multi-core
     embedded systems'
   url: https://doi.org/10.4230/OASIcs.NG-RES.2020.3
+  year: '2020'
+- ENTRYTYPE: article
+  ID: SoKIndustrialControlSystemsSecurity2020
+  author: Deval Bhamare and Maede Zolanvari and Aiman Erbad and Raj Jain and Khaled
+    Khan and Nader Meskin
+  doi: https://doi.org/10.1016/j.cose.2019.101677
+  journal: Computers \& Security
+  month: February
+  number: '101667'
+  title: 'Cybersecurity for industrial control systems: A survey'
+  volume: '89'
+  year: '2020'
+- ENTRYTYPE: inproceedings
+  ID: SoKTrustZone2020
+  address: San Francisco, CA
+  author: Cerdeira, David and Santos, Nuno and Fonseca, Pedro and Pinto, Sandro
+  booktitle: 2020 IEEE Symposium on Security and Privacy
+  doi: 10.1109/SP40000.2020.00061
+  month: May
+  organization: IEEE
+  pages: 1416--1432
+  series: IEEE S\&P '20
+  title: '{SoK}: Understanding the prevailing security vulnerabilities in {TrustZone}-assisted
+    {TEE} systems'
+  year: '2020'
+- ENTRYTYPE: article
+  ID: Spectre2020
+  author: Kocher, Paul and Horn, Jann and Fogh, Anders and Genkin, Daniel and Gruss,
+    Daniel and Haas, Werner and Hamburg, Mike and Lipp, Moritz and Mangard, Stefan
+    and Prescher, Thomas and Schwarz, Michael and Yarom, Yuval
+  doi: 10.1145/3399742
+  issn: 0001-0782
+  issue_date: July 2020
+  journal: Communications of the ACM
+  month: June
+  number: '7'
+  numpages: '9'
+  pages: "93\u2013101"
+  publisher: ACM New York, NY, USA
+  title: 'Spectre attacks: exploiting speculative execution'
+  url: https://doi.org/10.1145/3399742
+  volume: '63'
+  year: '2020'
+- ENTRYTYPE: misc
+  ID: RapidGrowthIOURing2020
+  author: Corbet, Johnathan
+  howpublished: \\\url{https://lwn.net/Articles/810414/}
+  month: January
+  title: The rapid growth of io\_uring
+  urldate: 2024-4-12
+  year: '2020'
+- ENTRYTYPE: misc
+  ID: ZooxTeleGuidance2020
+  author: Mario Herger
+  howpublished: Available at \url{https://thelastdriverlicenseholder.com/2020/11/12/how-teleguidance-helps-zoox-vehicles-to-navigate-difficult-traffic-scenarios/}
+  month: November
+  title: How TeleGuidance Helps Zoox Vehicles to Navigate Difficult Traffic Scenarios
   year: '2020'
 - ENTRYTYPE: inproceedings
   ID: CHANCEL2021
@@ -1711,6 +2266,97 @@
   title: 'uTango: an open-source TEE for the Internet of Things'
   url: https://arxiv.org/abs/2102.03625
   year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: Occlum2021
+  author: Tian, Hongliang
+  booktitle: Open Confidential Computing Conference
+  howpublished: Available at \url{https://www.youtube.com/watch?v=3qQHrUEzFX4}
+  series: OC3 '21
+  title: Re-architect {Occlum} for the next-gen {Intel} {SGX}
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: SeKVM2021
+  author: Li, Shih-Wei and Li, Xupeng and Gu, Ronghui and Nieh, Jason and Hui, John
+    Zhuang
+  booktitle: 30th USENIX Security Symposium
+  pages: 3953--3970
+  series: USENIX Security '21
+  title: Formally verified memory protection for a commodity multiprocessor hypervisor
+  url: https://www.usenix.org/conference/usenixsecurity21/presentation/li-shih-wei
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: RealTimeVirtio2021
+  author: "Schw\xE4ricke, Gero and Tabish, Rohan and Pellizzoni, Rodolfo and Mancuso,\
+    \ Renato and Bastoni, Andrea and Zuepke, Alexander and Caccamo, Marco"
+  booktitle: 2021 IEEE Real-Time Systems Symposium
+  doi: 10.1109/RTSS52674.2021.00015
+  keywords: Virtual machine monitors;Random access memory;Interference;Virtual machining;Real-time
+    systems;Hardware;Task analysis;predictable systems;real time;partitioning;virtual
+    machine;communication;virtio;packet scheduling
+  pages: 27--40
+  publisher: IEEE
+  series: RTSS '21
+  title: A Real-Time Virtio-Based Framework for Predictable Inter-VM Communication
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: OneGlitch2021
+  address: Virtual Event, Repbulic of Korea
+  author: Buhren, Robert and Jacob, Hans-Niklas and Krachenfels, Thilo and Seifert,
+    Jean-Pierre
+  booktitle: Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications
+    Security
+  month: November
+  pages: 2875--2889
+  publisher: ACM New York, NY, USA
+  series: CCS '21
+  title: 'One glitch to rule them all: Fault injection attacks against {AMD}''s secure
+    encrypted virtualization'
+  year: '2021'
+- ENTRYTYPE: inproceedings
+  ID: SoKDroneSecurity2021
+  author: Nassi, Ben and Bitton, Ron and Masuoka, Ryusuke and Shabtai, Asaf and Elovici,
+    Yuval
+  booktitle: 2021 IEEE Symposium on Security and Privacy
+  doi: 10.1109/SP40001.2021.00005
+  keywords: Privacy;Ecosystems;Security;Drones;Drones;Privacy;Security;Society
+  number: ''
+  pages: 1434--1451
+  series: IEEE S\&P '21
+  title: '{SoK}: Security and privacy in the age of commercial drones'
+  volume: ''
+  year: '2021'
+- ENTRYTYPE: article
+  ID: SeeingIsNotAlwayBelieving2021
+  author: Liu, Jinshan and Park, Jung-Min
+  journal: IEEE Transactions on Dependable and Secure Computing
+  number: '5'
+  pages: 2209--2223
+  publisher: IEEE
+  title: "\u201CSeeing is not always believing\u201D: Detecting perception error attacks\
+    \ against autonomous vehicles"
+  volume: '18'
+  year: '2021'
+- ENTRYTYPE: manual
+  ID: DriveOSTEEDoc
+  author: NVIDIA
+  howpublished: Available at \url{https://docs.nvidia.com/drive/drive-os-5.2.6.0L/drive-os/DRIVE_OS_Linux_SDK_NGC_Development_Guide/baggage/group__global__platform__capi.html}
+  title: '{NVIDIA DRIVE OS Linux SDK API Reference: TEE Internal Client API}'
+  year: '2021'
+- ENTRYTYPE: misc
+  ID: SignalGroupCalls
+  author: Thatcher, Peter
+  howpublished: Available at \url{https://signal.org/blog/how-to-build-encrypted-group-calls/}
+  month: December
+  title: How to build large-scale end-to-end encrypted group video calls
+  urldate: 2024-4-12
+  year: '2021'
+- ENTRYTYPE: misc
+  ID: CVE-2021-44149
+  month: November
+  title: '{CVE-2021-44149}'
+  url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44149
+  urldate: 23 Jun 2023
+  year: '2021'
 - ENTRYTYPE: article
   ID: PSpSys2022
   author: Jiang, Zhe and Dong, Pan and Wei, Ran and Zhao, Qingling and Wang, Yankai
@@ -1781,8 +2427,8 @@
   booktitle: Network and Distributed Systems Security ({NDSS}) Symposium
   pages: 1--18
   title: Building embedded systems like it's 1996
-  year: '2022'
   url: https://www.ndss-symposium.org/ndss-paper/auto-draft-211/
+  year: '2022'
 - ENTRYTYPE: inproceedings
   ID: StrongBox2022
   author: Deng, Yunjie and Wang, Chenxu and Yu, Shunchang and Liu, Shiqing and Ning,
@@ -1819,6 +2465,71 @@
   title: Spawning processes faster and easier with io_uring
   url: https://lpc.events/event/16/contributions/1213/attachments/1012/1945/io-uring-spawn.pdf
   year: '2022'
+- ENTRYTYPE: article
+  ID: 3rdParTEE2022
+  author: Jang, Jinsoo and Kang, Brent Byunghoon
+  doi: 10.1109/JIOT.2022.3152555
+  journal: IEEE Internet of Things Journal
+  keywords: Internet of Things;Kernel;Security;Software;Program processors;Runtime;Performance
+    evaluation;Internet of Things (IoT) security;trusted execution environment (TEE)
+  number: '17'
+  pages: 15814-15826
+  title: '{3rdParTEE}: Securing third-party {IoT} services using the {Trusted Execution
+    Environment}'
+  volume: '9'
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: CanWePutTheSIntoIoT2022
+  author: Heiser, Gernot and Parker, Lucy and Chubb, Peter and Velickovic, Ivan and
+    Leslie, Ben
+  booktitle: IEEE 8th World Forum on Internet of Things
+  organization: IEEE
+  pages: 1--6
+  series: WF-IoT '22
+  title: Can we put the {``S''} into {IoT}?
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: IFeelADraft2022
+  address: Vancouver, BC
+  author: Berard, David and Dehors, Vincent
+  booktitle: Hexacon
+  month: October
+  title: I feel a draft. Opening the doors and windows 0-click {RCE} on the {Tesla
+    Model3}
+  year: '2022'
+- ENTRYTYPE: techreport
+  ID: MixedCriticality2022
+  author: Burns, Alan and Davis, Robert
+  institution: Department of Computer Science, University of York
+  month: February
+  number: '13'
+  pages: 1--69
+  title: Mixed criticality systems---A review
+  year: '2022'
+- ENTRYTYPE: inproceedings
+  ID: RealTimeReachability2022
+  author: Musau, Patrick and Hamilton, Nathaniel and Lopez, Diego Manzanas and Robinette,
+    Preston and Johnson, Taylor T.
+  booktitle: 2022 IEEE International Conference on Assured Autonomy
+  doi: 10.1109/ICAA52185.2022.00010
+  keywords: Runtime;Switches;Reinforcement learning;Real-time systems;Safety;Sensors;Vehicle
+    dynamics;formal verification;hybrid automaton;reachability analysis;imitation
+    learning;deep reinforcement learning
+  number: ''
+  pages: 1-10
+  series: ICAA '22
+  title: On Using Real-Time Reachability for the Safety Assurance of Machine Learning
+    Controllers
+  volume: ''
+  year: '2022'
+- ENTRYTYPE: misc
+  ID: CVE-2022-47630
+  author: '{MITRE}'
+  month: December
+  note: Available at \url{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-47630}
+  title: '{CVE-2022-47630}'
+  urldate: 23 Jun 2023
+  year: '2022'
 - ENTRYTYPE: inproceedings
   ID: MyTEE2023
   author: Han, Seungkyun and Jang, Jinsoo
@@ -1838,6 +2549,239 @@
   title: Shedding light on static partitioning hypervisors for Arm-based mixed-criticality
     systems
   year: '2023'
+- ENTRYTYPE: techreport
+  ID: RealTimeUbuntuWhitePaper2023
+  author: '{Canonical}'
+  institution: Canonical
+  month: March
+  title: A {CTO}'s guide to real-time {Linux}
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: DJIDroneSecurity2023
+  address: San Diego, CA
+  author: Schiller, Nico and Chlosta, Merlin and Schloegel, Moritz and Bars, Nils
+    and Eisenhofer, Thorsten and Scharnowski, Tobias and Domke, Felix and Sch{\"o}nherr,
+    Lea and Holz, Thorsten
+  booktitle: Network and Distributed Systems Security Symposium
+  month: February
+  publisher: The Internet Society
+  series: NDSS '23
+  title: Drone security and the mysterious case of {DJI}'s {DroneID}.
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: JailbreakingAnElectricVehicle2023
+  address: Las Vegas, NV
+  author: Werling, Christian and K\"uhnapfel, Niclas and Jacob, Hans Niklas and Drokin,
+    Oleg
+  booktitle: Black Hat USA
+  month: June
+  title: Jailbreaking an electric vehicle in 2023
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: MemPol2023
+  author: Zuepke, Alexander and Bastoni, Andrea and Chen, Weifan and Caccamo, Marco
+    and Mancuso, Renato
+  booktitle: 29th Real-Time and Embedded Technology and Applications Symposium
+  doi: 10.1109/RTAS58335.2023.00026
+  keywords: Virtual machine monitors;Process control;Bandwidth;Interference;Quality
+    of service;Regulation;Phasor measurement units;temporal isolation;real-time system;multi-core;memory
+    bandwidth regulation
+  pages: 235--248
+  publisher: IEEE
+  series: RTAS '23
+  title: '{MemPol}: Policing core memory bandwidth from outside of the cores'
+  year: '2023'
+- ENTRYTYPE: article
+  ID: TurnTalking2023
+  author: Meyer, Antje S.
+  doi: 10.5334/joc.268
+  journal: Journal of Cognition
+  month: Apr
+  title: Timing in Conversation
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: DynamicSimplex2023
+  address: San Antonio, TX, USA
+  author: Luo, Baiting and Ramakrishna, Shreyas and Pettet, Ava and Kuhn, Christopher
+    and Karsai, Gabor and Mukhopadhyay, Ayan
+  booktitle: Proceedings of the ACM/IEEE 14th International Conference on Cyber-Physical
+    Systems (with CPS-IoT Week 2023)
+  doi: 10.1145/3576841.3585934
+  isbn: '9798400700361'
+  numpages: '10'
+  pages: "177\u2013186"
+  series: ICCPS '23
+  title: '{Dynamic Simplex}: Balancing safety and performance in autonomous cyber
+    physical systems'
+  url: https://doi.org/10.1145/3576841.3585934
+  year: '2023'
+- ENTRYTYPE: article
+  ID: DistributedEventDrivenEnclaves2023
+  articleno: '39'
+  author: Scopelliti, Gianluca and Pouyanrad, Sepideh and Noorman, Job and Alder,
+    Fritz and Baumann, Christoph and Piessens, Frank and M\"{u}hlberg, Jan Tobias
+  doi: 10.1145/3592607
+  issn: 2471-2566
+  issue_date: August 2023
+  journal: ACM Transactions on Privacy and Security
+  keywords: distributed systems security, IoT security, Software Development Kit,
+    Trusted Execution
+  month: June
+  number: '3'
+  numpages: '46'
+  publisher: ACM New York, NY, USA
+  title: End-to-End Security for Distributed Event-driven Enclave Applications on
+    Heterogeneous {TEEs}
+  url: https://doi.org/10.1145/3592607
+  volume: '26'
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: SassCache2023
+  author: Giner, Lukas and Steinegger, Stefan and Purnal, Antoon and Eichlseder, Maria
+    and Unterluggauer, Thomas and Mangard, Stefan and Gruss, Daniel
+  booktitle: 2023 IEEE Symposium on Security and Privacy
+  doi: 10.1109/sp46215.2023.10179440
+  organization: IEEE
+  pages: 2273--2287
+  series: IEEE S\&P '23
+  title: 'Scatter and split securely: Defeating cache contention and occupancy attacks'
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: AboutTime2023
+  address: Rome, Italy
+  author: Alder, Fritz and Scopelliti, Gianluca and Van Bulck, Jo and M\"{u}hlberg,
+    Jan Tobias
+  booktitle: Proceedings of the 6th Workshop on System Software for Trusted Execution
+  doi: 10.1145/3578359.3593038
+  isbn: '9798400700873'
+  numpages: '7'
+  pages: 27--33
+  publisher: ACM New York, NY, USA
+  series: SysTEX '23
+  title: 'About time: On the challenges of temporal guarantees in untrusted
+
+    environments'
+  url: https://doi.org/10.1145/3578359.3593038
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: TeslaAutopilotVoltageGlitching2023
+  address: Hamburg, Germany
+  author: 'Niclas K\"{u}hnapfel and Christian Werling and Hans Niklas Jacob '
+  booktitle: 37th Chaos Communication Congress
+  month: December
+  series: 37C3
+  title: Recovering Critical Data from Tesla Autopilot Using Voltage Glitching
+  year: '2023'
+- ENTRYTYPE: misc
+  ID: DownedUSDrone2023
+  author: Starks, Tim and DiMolfetta, David
+  howpublished: Available at \url{https://www.washingtonpost.com/politics/2023/03/16/downed-us-drone-points-cyber-vulnerabilities/}
+  month: March
+  title: Downed {U.S.} drone points to cyber vulnerabilities
+  year: '2023'
+- ENTRYTYPE: article
+  ID: SoKRealTimeSecurity2024
+  articleno: '218'
+  author: Hasan, Monowar and Kashinath, Ashish and Chen, Chien-Ying and Mohan, Sibin
+  doi: 10.1145/3649499
+  issn: 0360-0300
+  issue_date: September 2024
+  journal: ACM Computing Surveys
+  keywords: Embedded systems, cyber-physical systems, scheduling
+  month: April
+  number: '9'
+  numpages: '31'
+  publisher: ACM New York, NY, USA
+  title: 'SoK: Security in Real-Time Systems'
+  url: https://doi.org/10.1145/3649499
+  volume: '56'
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: LiDARWatermarking2024
+  author: Marazzi, Michele Carminati Michele Marazzi Michele and Longari, Stefano
+    and Zanero, Stefano
+  booktitle: Symposium on Vehicles Security and Privacy
+  series: VehicleSec '24
+  title: Securing {LiDAR} communication through watermark-based tampering detection
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: RCETeslaInfotainment2024
+  author: Berard, David and Dehors, Vincent
+  booktitle: OffensiveCon
+  month: May
+  note: Available at \url{https://www.synacktiv.com/sites/default/files/2024-05/tesla_0_click_rce_cellular_network_offensivecon2024.pdf}
+  title: 0-Click {RCE} on the {Tesla} infotainment through cellular network
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: LDR2024
+  address: San Diego, CA
+  author: Yan, Huaiyu and Ling, Zhen and Li, Haobo and Luo, Lan and Shao, Xinhui and
+    Dong, Kai and Jiang, Ping and Yang, Ming and Luo, Junzhou and Fu, Xinwen
+  booktitle: Network and Distributed Systems Security Symposium
+  month: February
+  publisher: The Internet Society
+  series: NDSS '24
+  title: '{LDR}: Secure and efficient {Linux} driver runtime for embedded {TEE} systems'
+  url: https://www.ndss-symposium.org/ndss-paper/ldr-secure-and-efficient-linux-driver-runtime-for-embedded-tee-systems/
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: GlobalConfusion2024
+  author: Busch, Marcel and Mao, Philipp and Payer, Mathias
+  booktitle: 33rd USENIX Security Symposium
+  pages: 5537--5554
+  series: USENIX Security '24
+  title: '{GlobalConfusion}: {TrustZone} trusted application 0-days by design'
+  url: https://www.usenix.org/conference/usenixsecurity24/presentation/busch-globalconfusion
+  year: '2024'
+- ENTRYTYPE: unpublished
+  ID: Aster2024
+  author: Kuhne, Mark and Sridhara, Supraja and Bertschi, Andrin and Dutly, Nicolas
+    and Capkun, Srdjan and Shinde, Shweta
+  note: arXiv preprint arXiv:2407.16694
+  title: 'Aster: Fixing the android {TEE} ecosystem with {ARM} {CCA}'
+  year: '2024'
+- ENTRYTYPE: manual
+  ID: ARMv8-AManual
+  organization: ARM
+  title: '{ARM Architecture Reference Manual for A-profile Architecture}'
+  url: https://developer.arm.com/documentation/ddi0487/latest
+  year: '2024'
+- ENTRYTYPE: manual
+  ID: PSCIManual
+  organization: ARM
+  title: '{ARM Power State Coordination Interface Platform Design Document}'
+  url: https://developer.arm.com/documentation/den0022/latest
+  year: '2024'
+- ENTRYTYPE: manual
+  ID: ARMCCAManual
+  organization: ARM
+  title: Learn the architecture --- {Realm Management Extension}
+  url: https://developer.arm.com/documentation/den0126/latest
+  year: '2024'
+- ENTRYTYPE: misc
+  ID: 20YearsLaterRealTimeLinux
+  author: Steven Vaughan-Nichols
+  howpublished: Available at \url{https://www.zdnet.com/article/20-years-later-real-time-linux-makes-it-to-the-kernel-really/}
+  month: September
+  title: 20 years later, real-time {Linux} makes it to the kernel - really
+  urldate: '2024-10-19'
+  year: '2024'
+- ENTRYTYPE: techreport
+  ID: DJIWhitePaper2024
+  author: '{DJI}'
+  howpublished: Available at \url{https://www.dji.com/trust-center/resource/white-paper}
+  institution: '{DJI}'
+  month: April
+  title: Drone Security White Paper (Version 3.0)
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: Dorami2025
+  author: Mark Kuhne and Stavros Volos and Shweta Shinde
+  booktitle: 34rd USENIX Security Symposium
+  series: USENIX Security '25
+  title: 'Dorami: Privilege Separating Security Monitor on {RISC-V} {TEEs}'
+  url: https://doi.org/10.48550/arXiv.2410.03653
+  year: '2025'
 - ENTRYTYPE: misc
   ID: MBedTLS
   author: Linaro
@@ -1881,3 +2825,140 @@
   - av
   - industry
   title: COQOS Virtual Platform at the core of Software Defined Vehicle Development
+- ENTRYTYPE: misc
+  ID: OP-TEE
+  author: Linaro
+  howpublished: Available at \url{https://github.com/OP-TEE/optee_os}
+  title: Open Portable Trusted Execution Environment
+  urldate: '2021-12-14'
+- ENTRYTYPE: misc
+  ID: Trusty-TEE
+  author: Google
+  howpublished: Available at \url{https://source.android.com/docs/security/features/trusty/trusty-ref}
+  title: Trusty API reference
+  urldate: '2024-10-17'
+- ENTRYTYPE: misc
+  ID: UnixBench
+  author: Smith, Ian and Voelim, Anthony and Niemi, David and Tombs, Jon and Smith,
+    Ben and Grehan, Rick and Yager, Tom
+  howpublished: Available at \url{https://github.com/kdlucas/byte-unixbench}
+  title: 'UnixBench: the original {BYTE UNIX} benchmark suite'
+  urldate: '2022-10-11'
+- ENTRYTYPE: misc
+  ID: ARM-TF
+  author: ARM
+  howpublished: Available at \url{https://github.com/ARM-software/arm-trusted-firmware}
+  title: '{ARM Trusted Firmware}'
+  urldate: '2022-10-11'
+- ENTRYTYPE: misc
+  ID: RTI-DDS
+  author: Real-Time Innovations
+  howpublished: Available at \url{https://www.rti.com/products/connext-dds-professional}
+  title: '{RTI Connext DDS}'
+- ENTRYTYPE: misc
+  ID: Fast-DDS
+  author: '{eProsima}'
+  howpublished: Available at \url{https://www.eprosima.com/index.php/products-all/eprosima-fast-dds}
+  title: '{eProsima Fast DDS}'
+- ENTRYTYPE: misc
+  ID: Cyclone-DDS
+  author: '{Eclipse Foundation}'
+  howpublished: Available at \url{https://cyclonedds.io/docs/cyclonedds/latest/about_dds/eclipse_cyclone_dds.html}
+  title: '{Eclipse Cyclone DDS}'
+- ENTRYTYPE: misc
+  ID: ArduPilot
+  howpublished: Available at \url{https://ardupilot.org/}
+  title: '{ArduPilot}'
+  urldate: 2024-2-21
+- ENTRYTYPE: misc
+  ID: RealTimeUbuntu
+  author: '{Canonical}'
+  howpublished: Available at \url{https://ubuntu.com/real-time}
+  title: Real-time {Ubuntu}
+- ENTRYTYPE: misc
+  ID: AirGapIsDead
+  author: Nehmy, Alex
+  howpublished: Available at \url{https://www.paloaltonetworks.com/cybersecurity-perspectives/the-air-gap-is-dead}
+  title: The air gap is dead. It's time for industrial organisations to embrace the
+    cloud
+  urldate: 2024-4-12
+- ENTRYTYPE: misc
+  ID: HACMS
+  howpublished: Available at \url{http://loonwerks.com/projects/hacms.html}
+  title: '{HACMS: High Assurance Cyber Military Systems}'
+  urldate: 2024-2-27
+- ENTRYTYPE: misc
+  ID: SMACCM
+  howpublished: Available at \url{https://trustworthy.systems/projects/OLD/SMACCM/}
+  title: '{SMACCM: TS in the DARPA HACMS Program}'
+  urldate: 2024-9-3
+- ENTRYTYPE: misc
+  ID: IceoryxLockFree
+  author: '{Eclipse Foundation}'
+  howpublished: Available at \url{https://github.com/eclipse-iceoryx/iceoryx/blob/main/doc/design/lockfree_queue.md}
+  title: 'Iceoryx: Lock-Free Queue'
+  urldate: 2024-9-4
+- ENTRYTYPE: misc
+  ID: IceoryxImplementation
+  author: '{Eclipse Foundation}'
+  howpublished: Available at \url{https://github.com/eclipse-iceoryx/iceoryx/blob/main/iceoryx_hoofs/concurrent/buffer/include/iox/detail/mpmc_lockfree_queue/mpmc_resizeable_lockfree_queue.inl#L218}
+  title: Iceoryx Lock-Free Queue Source Code
+  urldate: 2024-9-4
+- ENTRYTYPE: misc
+  ID: FastDDSSharedMemory
+  howpublished: Available at \url{https://github.com/eProsima/Fast-DDS/blob/2.3.4/doc/design/shared-memory-transport/interprocess_shared_mem.md#future-improvements}
+  title: Fast-{DDS} Interprocess Shared Memory model
+  urldate: 2024-9-4
+- ENTRYTYPE: misc
+  ID: PikeOSVirtIO
+  howpublished: Available at \url{https://www.sysgo.com/virtio}
+  title: '{SYSGO} {PikeOS} --- {VirtIO}'
+  urldate: '2024-10-17'
+- ENTRYTYPE: misc
+  ID: PixHawkCompanion
+  howpublished: Available at \url{https://docs.px4.io/main/en/companion_computer/}
+  title: '{PX4} Guide (main) --- Companion Computers'
+  urldate: '2024-10-19'
+- ENTRYTYPE: misc
+  ID: TX2Companion
+  howpublished: Available at \url{https://ardupilot.org/dev/docs/companion-computer-nvidia-tx2.html}
+  title: '{NVidia} {TX2} as a Companion Computer'
+  urldate: '2024-10-19'
+- ENTRYTYPE: misc
+  ID: ArduPilotNAVIO2
+  author: '{Ardupilot}'
+  howpublished: Available at \url{https://ardupilot.org/copter/docs/common-navio2-overview.html}
+  title: '{NAVIO2} Overview'
+  urldate: '2024-10-19'
+- ENTRYTYPE: misc
+  ID: ArduPilotBebop
+  author: '{Ardupilot}'
+  howpublished: Available at \url{https://ardupilot.org/copter/docs/parrot-bebop-autopilot.html}
+  title: '{Parrot Bebop Autopilot}'
+  urldate: '2024-10-19'
+- ENTRYTYPE: misc
+  ID: LinuxCVETracker
+  author: CVEdetails.com
+  howpublished: Available at \url{https://www.cvedetails.com/product/47/Linux-Linux-Kernel.html}
+  institution: CVEdetails.com
+  title: Threat overview for {Linux} kernel
+- ENTRYTYPE: misc
+  ID: DriveUauto
+  author: '{DriveU.auto}'
+  howpublished: Available at \url{https://driveu.auto/teleoperation/}
+  title: Teleoperation for Autonomous Vehicles
+- ENTRYTYPE: misc
+  ID: AutomotiveGradeLinux
+  author: '{The Linux Foundation}'
+  howpublished: Available at \url{https://www.automotivelinux.org/}
+  title: '{Automotive Grade Linux}'
+- ENTRYTYPE: misc
+  ID: VxWorks653
+  author: '{WindRiver}'
+  howpublished: Available at \url{https://www.windriver.com/products/vxworks/safety-platforms}
+  title: VxWorks Safety PLanforms
+- ENTRYTYPE: misc
+  ID: SkyJack
+  author: Kamkar, Samy
+  howpublished: Available at \url{https://github.com/samyk/skyjack/tree/master}
+  title: '{SkyJack}'
